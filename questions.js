@@ -31,6 +31,11 @@
        vocab:  ["..."]
      }
    }
+
+   NOTE ON PART 1 ANSWERS:
+   Part 1 answers are written to sound natural and spoken, with a direct
+   answer plus a reason or example (the "answer + extend" technique) —
+   long enough to show range, but not a mini-speech.
    ===================================================================== */
 
 const SPEAKING_DATA = [
@@ -43,35 +48,35 @@ const SPEAKING_DATA = [
       questions: [
         {
           q: "Can you describe your hometown?",
-          sample: "I'm originally from Samarkand, which is one of the oldest cities in Central Asia. It's famous for its stunning Islamic architecture, especially the Registan Square. It's not a huge city, so it has a fairly relaxed, friendly atmosphere, and that's exactly what I love about it.",
+          sample: "Sure. I'm originally from Samarkand, which is one of the oldest cities in Central Asia. It's especially famous for its stunning Islamic architecture, like the Registan Square, so we get a lot of tourists. It's not a huge city, so it has a fairly relaxed, friendly atmosphere, and honestly that's the thing I love most about it.",
           ideas: ["Where it is + how big it is", "What it's famous for", "The atmosphere / what you like about it"],
           grammar: "Use 'which' to add extra detail: '...Samarkand, which is one of the oldest cities...'",
           vocab: ["stunning — extremely beautiful", "relaxed atmosphere", "renowned for / famous for"]
         },
         {
           q: "What is your favorite part of your home?",
-          sample: "Without a doubt, it's the living room. It gets a lot of natural light during the day, and it's where my whole family gathers in the evenings to chat and watch films, so it has a really warm, cosy feeling.",
+          sample: "Without a doubt, it's the living room. It gets a lot of natural light during the day, which makes it feel really warm and welcoming. On top of that, it's where my whole family gathers in the evenings to chat and watch films, so it's full of nice memories for me.",
           ideas: ["Name the room", "Why — light, comfort, memories", "What you do there"],
           grammar: "Reason linking: 'It's where my family gathers, so it feels cosy.'",
           vocab: ["cosy — warm and comfortable", "natural light", "gather — come together"]
         },
         {
           q: "Which room in your house do you like the most?",
-          sample: "I'd have to say my bedroom, simply because it's my personal space. I've decorated it exactly the way I like, with lots of books and posters, so it's the one place where I can completely relax and unwind after a long day.",
+          sample: "I'd have to say my bedroom, mainly because it's my own personal space. I've decorated it exactly the way I like, with lots of books and a few posters, so it really feels like me. It's the one place where I can completely switch off and relax after a long day.",
           ideas: ["Personal space", "How it's decorated", "How it makes you feel"],
           grammar: "Adding emphasis: 'I'd have to say...' softens and emphasises your choice.",
-          vocab: ["unwind — relax", "personal space", "decorate"]
+          vocab: ["unwind — relax", "personal space", "switch off"]
         },
         {
           q: "Is there anything you want to change about your home?",
-          sample: "If I could change one thing, I'd love to have a bigger kitchen. The one we have now is quite small, so it gets a bit crowded when several of us are cooking at the same time.",
+          sample: "If I could change one thing, I'd love to have a bigger kitchen. The one we have now is quite small, so it gets a bit crowded whenever a few of us are cooking at the same time. A more spacious kitchen would honestly make family dinners a lot more enjoyable.",
           ideas: ["Pick one realistic thing", "Explain the problem", "How the change would help"],
           grammar: "Second conditional: 'If I could change one thing, I'd love to...'",
           vocab: ["crowded — too many people in a space", "spacious — having lots of room"]
         },
         {
           q: "What kind of home would you like in the future?",
-          sample: "In the future, I'd ideally like to live in a spacious house with a garden, somewhere a bit quieter on the outskirts of the city. Having some green space around me would be perfect for relaxing at the weekends.",
+          sample: "In the future, I'd ideally like to live in a spacious house with a garden, somewhere a bit quieter on the outskirts of the city. I think having some green space around me would be perfect for relaxing at the weekends. That said, I wouldn't want to be too far from the centre, so somewhere with a good balance would be ideal.",
           ideas: ["Type of home (house/flat)", "Location (city/quiet/suburbs)", "One special feature"],
           grammar: "Future wishes with 'would like to' + 'ideally': 'I'd ideally like to live in...'",
           vocab: ["spacious", "on the outskirts — at the edge of a city", "green space"]
@@ -103,35 +108,35 @@ const SPEAKING_DATA = [
       questions: [
         {
           q: "What is your full name?",
-          sample: "My full name is Xurshid Aliqulov. Xurshid is my first name and Aliqulov is my family name.",
+          sample: "My full name is Xurshid Aliqulov. Xurshid is my first name and Aliqulov is my family name. Most of my friends just call me Xurshid, though.",
           ideas: ["Just state it clearly", "You can add first/family name"],
           grammar: "Simple present for facts: 'My full name is...'",
           vocab: ["first name", "family name / surname"]
         },
         {
           q: "Who picked your name?",
-          sample: "I was told that my grandfather chose my name. Apparently it means 'the sun' or 'sunlight', and he liked the idea that I would bring brightness to the family.",
+          sample: "I was told that my grandfather chose my name, actually. Apparently it means 'the sun' or 'sunlight', and he liked the idea that I would bring a bit of brightness to the family. I think it's quite a meaningful name, so I'm happy with his choice.",
           ideas: ["Who chose it", "What it means", "Why they chose it"],
           grammar: "Reported speech: 'I was told that...', 'Apparently...'",
           vocab: ["named after — given the same name as", "meaning", "apparently"]
         },
         {
           q: "Where are you from?",
-          sample: "I'm from Uzbekistan, a country in Central Asia. More specifically, I grew up in Samarkand, which is in the eastern part of the country.",
+          sample: "I'm from Uzbekistan, which is a country in Central Asia. More specifically, I grew up in Samarkand, in the eastern part of the country, although I'm currently living in the capital for my studies.",
           ideas: ["Country first", "Then the city/region"],
           grammar: "Zooming in: 'I'm from... More specifically, I grew up in...'",
           vocab: ["originally from", "grew up in"]
         },
         {
           q: "Do you work or study?",
-          sample: "At the moment I'm a student. I'm preparing for the IELTS exam, and alongside that I'm studying at university, so most of my days are pretty busy.",
+          sample: "At the moment I'm a student. I'm mainly preparing for the IELTS exam, and alongside that I'm studying at university, so most of my days are pretty busy, to be honest.",
           ideas: ["Say which one", "Add a bit of detail", "How busy you are"],
           grammar: "Present continuous for current situation: 'I'm preparing for... I'm studying...'",
           vocab: ["alongside — at the same time as", "preparing for"]
         },
         {
           q: "Do you like your job/studies?",
-          sample: "Yes, I genuinely enjoy my studies. It can be challenging at times, especially around exams, but I find it really rewarding because I can see myself improving every week.",
+          sample: "Yes, I genuinely enjoy my studies. It can be quite challenging at times, especially around exam season, but I find it really rewarding because I can actually see myself improving from week to week. That sense of progress keeps me motivated.",
           ideas: ["Yes/No + why", "One challenge", "One thing you enjoy"],
           grammar: "Contrast with 'although/but': 'It can be challenging, but I find it rewarding.'",
           vocab: ["rewarding — giving satisfaction", "challenging — difficult in a good way"]
@@ -163,38 +168,38 @@ const SPEAKING_DATA = [
       questions: [
         {
           q: "What is your job / what do you study?",
-          sample: "I'm currently a university student, majoring in economics. On top of my degree, I'm also working hard on improving my English for the IELTS exam.",
+          sample: "I'm currently a university student, and I'm majoring in economics. On top of my degree, I'm also working really hard on improving my English for the IELTS exam, so I've got quite a lot on my plate at the moment.",
           ideas: ["Subject or job title", "A bit of extra context"],
           grammar: "'major in' for your main subject: 'I'm majoring in economics.'",
-          vocab: ["major in — study as your main subject", "degree"]
+          vocab: ["major in — study as your main subject", "degree", "a lot on my plate — very busy"]
         },
         {
           q: "How long have you been doing it / studying it?",
-          sample: "I've been studying economics for nearly two years now. Time has flown by, to be honest — it doesn't feel that long at all.",
+          sample: "I've been studying economics for nearly two years now. Honestly, time has flown by — it really doesn't feel that long at all. I think that's a good sign, because it means I'm genuinely enjoying it.",
           ideas: ["Give the length of time", "A quick comment on how it feels"],
           grammar: "Present perfect continuous: 'I've been studying... for two years.'",
           vocab: ["time has flown by — passed quickly"]
         },
         {
           q: "Why did you choose this job / field of study?",
-          sample: "I chose economics because I've always been curious about how money and markets shape the world. I also felt it would open up a wide range of career options for me later on.",
+          sample: "I chose economics mainly because I've always been curious about how money and markets shape the world around us. I also felt it was a fairly practical choice, since it would open up a wide range of career options for me later on.",
           ideas: ["Personal interest", "Career prospects"],
           grammar: "Reason + result: 'I chose it because... I also felt it would...'",
           vocab: ["career prospects", "open up options", "curious about"]
         },
         {
           q: "What do you like about your job / studies?",
-          sample: "What I enjoy most is that it's very practical — I can relate what I learn in lectures to real events in the news, which makes the whole subject come alive for me.",
+          sample: "What I enjoy most is that it's very practical. I can relate what I learn in lectures to real events in the news, which makes the whole subject come alive for me. It never feels like I'm just memorising theory for the sake of it.",
           ideas: ["One specific thing you like", "Why it matters to you"],
           grammar: "'What I enjoy most is...' to highlight a point.",
           vocab: ["practical", "come alive", "relate to — connect with"]
         },
         {
           q: "Can you describe a typical day at work / school?",
-          sample: "A typical day usually starts with morning lectures, then I head to the library to review my notes. In the afternoon I often study English, and I try to keep my evenings free to relax with family.",
+          sample: "Sure. A typical day usually starts with morning lectures, then I head to the library to go over my notes while everything's still fresh. In the afternoon I often switch to studying English, and I try to keep my evenings free so I can relax with my family.",
           ideas: ["Morning routine", "Afternoon", "Evening"],
           grammar: "Sequencing words: 'starts with... then... after that... finally.'",
-          vocab: ["head to — go to", "review notes", "keep free"]
+          vocab: ["head to — go to", "go over — review", "keep free"]
         }
       ]
     }
@@ -223,35 +228,35 @@ const SPEAKING_DATA = [
       questions: [
         {
           q: "Where do you live?",
-          sample: "I live in Tashkent, the capital of Uzbekistan. My family and I have a place in a fairly central neighbourhood, so most things are within easy reach.",
+          sample: "I live in Tashkent, the capital of Uzbekistan. My family and I have a place in a fairly central neighbourhood, so most things — shops, the metro, parks — are within easy reach. It's quite a convenient spot, really.",
           ideas: ["City + area", "Who you live with", "Convenience"],
           grammar: "'within easy reach' = close and convenient.",
           vocab: ["neighbourhood", "central", "within easy reach"]
         },
         {
           q: "Do you live in a house or an apartment?",
-          sample: "We live in an apartment on the fifth floor. It's a comfortable size for our family, and I quite like being up high because we get a nice view over the city.",
+          sample: "We live in an apartment on the fifth floor. It's a comfortable size for our family, and I quite like being up high because we get a really nice view over the city. The only small downside is that the lift breaks down now and then.",
           ideas: ["House or flat", "Size / floor", "One thing you like"],
           grammar: "'I quite like... because...' to give a reason.",
           vocab: ["apartment / flat", "spacious", "view over"]
         },
         {
           q: "What do you like about your home?",
-          sample: "The thing I appreciate most is how light and airy it is. Big windows let in a lot of sunshine, which makes the whole place feel warm and welcoming.",
+          sample: "The thing I appreciate most is how light and airy it is. We've got big windows that let in a lot of sunshine, which makes the whole place feel warm and welcoming. After a long day, coming home to that always lifts my mood.",
           ideas: ["A feature you love", "Why it matters"],
           grammar: "'The thing I appreciate most is...' for emphasis.",
           vocab: ["light and airy", "welcoming", "let in"]
         },
         {
           q: "Would you like to change anything about your home?",
-          sample: "If I had the chance, I'd add a small balcony. It would be lovely to have somewhere to sit outside in the evenings and enjoy a cup of tea in the fresh air.",
+          sample: "If I had the chance, I'd probably add a small balcony. It would be lovely to have somewhere to sit outside in the evenings and enjoy a cup of tea in the fresh air. Other than that, though, I'm pretty happy with our place as it is.",
           ideas: ["One change", "Why it would help"],
           grammar: "Second conditional: 'If I had the chance, I'd add...'",
           vocab: ["balcony", "fresh air"]
         },
         {
           q: "How is the transportation in your area?",
-          sample: "Transport here is actually really convenient. There are buses and a metro line nearby, so I can get across the city without too much hassle, and it's quite affordable too.",
+          sample: "Transport here is actually really convenient. There are buses and a metro line nearby, so I can get across the city without too much hassle. It's quite affordable too, which is a big plus for a student like me.",
           ideas: ["Types available", "How convenient", "Cost"],
           grammar: "'without too much hassle' = easily, with no trouble.",
           vocab: ["convenient", "affordable", "hassle — difficulty / trouble"]
@@ -283,35 +288,35 @@ const SPEAKING_DATA = [
       questions: [
         {
           q: "What do you like to do in your free time?",
-          sample: "In my free time I'm quite into reading and going for long walks. Both of them help me clear my head, especially after a busy week of studying.",
+          sample: "In my free time I'm quite into reading and going for long walks. Both of them help me clear my head, especially after a busy week of studying. If I've got a bit more time, I'll also catch up with friends over a coffee.",
           ideas: ["One or two hobbies", "Why you do them"],
           grammar: "'I'm quite into...' = I really like (informal, natural).",
           vocab: ["clear my head — relax mentally", "be into — be keen on"]
         },
         {
           q: "How did you become interested in a hobby?",
-          sample: "I first got into reading because of my mother — she always had a book in her hand when I was growing up, and her enthusiasm just rubbed off on me.",
+          sample: "I first got into reading because of my mother, actually. She always had a book in her hand when I was growing up, and I think her enthusiasm just rubbed off on me over time. By my teens, I was reading on my own almost every day.",
           ideas: ["How it started", "Who/what influenced you"],
           grammar: "'rubbed off on me' = I picked up the habit from someone.",
           vocab: ["get into — start enjoying", "rub off on — influence"]
         },
         {
           q: "Is there any hobby you'd like to learn in the future?",
-          sample: "I'd really love to learn how to play the guitar one day. I've always admired people who can pick up an instrument and just play, so it's definitely on my list.",
+          sample: "I'd really love to learn how to play the guitar one day. I've always admired people who can just pick up an instrument and play a tune, so it's definitely on my list. I think it would be a great way to relax and express myself.",
           ideas: ["A new hobby", "Why it appeals to you"],
           grammar: "'I'd love to learn...' for future wishes.",
           vocab: ["pick up an instrument", "on my list"]
         },
         {
           q: "Why is a hobby important to you?",
-          sample: "For me, hobbies are important because they give me a sense of balance. Without something fun to switch off with, life would feel like nothing but work and study.",
+          sample: "For me, hobbies are important because they give me a sense of balance. Without something fun to switch off with, life would feel like nothing but work and study, which would burn me out pretty quickly. So I see my hobbies as a kind of mental reset.",
           ideas: ["Balance / stress relief", "Personal growth"],
           grammar: "'Without ..., life would...' for hypothetical contrast.",
-          vocab: ["sense of balance", "switch off — stop thinking about work"]
+          vocab: ["sense of balance", "switch off — stop thinking about work", "burn out"]
         },
         {
           q: "Do you prefer indoor or outdoor activities?",
-          sample: "It really depends on my mood, but if I had to choose, I'd lean towards outdoor activities. Being out in the fresh air just makes me feel more energetic and alive.",
+          sample: "It really depends on my mood, but if I had to choose, I'd lean towards outdoor activities. Being out in the fresh air just makes me feel more energetic and alive. That said, on a cold or rainy day, I'm more than happy to stay in with a good book.",
           ideas: ["Pick one (or 'it depends')", "Reason"],
           grammar: "'I'd lean towards...' = I slightly prefer.",
           vocab: ["lean towards", "energetic"]
@@ -341,11 +346,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Daily Routine",
       questions: [
-        { q: "What is your daily routine like?", sample: "My days are fairly structured. I usually start early, study in the morning when my mind is freshest, and keep the evenings for relaxing.", ideas: ["Morning / afternoon / evening", "How structured it is"], vocab: ["structured", "freshest"] },
-        { q: "What time do you usually get up?", sample: "I'm an early riser, so I'm normally up by around six. I find I get a lot more done when I start the day early.", ideas: ["The time", "Why / how it helps"], vocab: ["early riser", "get done"] },
-        { q: "What do you typically do in the evenings?", sample: "Evenings are my downtime. I usually have dinner with my family, then either read or watch something to unwind before bed.", ideas: ["Relaxing activities", "Family time"], vocab: ["downtime", "unwind"] },
-        { q: "Is there anything you would like to change in your daily routine?", sample: "I'd love to fit in some regular exercise. At the moment my schedule is so packed that I keep putting it off.", ideas: ["One change", "Why it's hard now"], vocab: ["fit in", "put off — postpone"] },
-        { q: "How do you usually spend your weekends?", sample: "Weekends are much more relaxed. I catch up on sleep, meet friends, and try to spend quality time with my family.", ideas: ["Rest", "Social time"], vocab: ["catch up on sleep", "quality time"] }
+        { q: "What is your daily routine like?", sample: "My days are fairly structured, to be honest. I usually start early and study in the morning when my mind is at its freshest, then I deal with smaller tasks in the afternoon. I like keeping the evenings free so I can actually relax and recharge.", ideas: ["Morning / afternoon / evening", "How structured it is"], grammar: "'when my mind is at its freshest' — superlative for emphasis.", vocab: ["structured", "freshest", "recharge"] },
+        { q: "What time do you usually get up?", sample: "I'm naturally an early riser, so I'm normally up by around six. I find I get a lot more done when I start the day early, and it gives me some quiet time before everything gets busy. On weekends, though, I do allow myself a bit of a lie-in.", ideas: ["The time", "Why / how it helps"], grammar: "Contrast with 'though': 'On weekends, though, I have a lie-in.'", vocab: ["early riser", "get done", "have a lie-in — sleep late"] },
+        { q: "What do you typically do in the evenings?", sample: "Evenings are my downtime, really. I usually have dinner with my family first, and then I'll either read or watch something light to unwind before bed. I try to stay off my phone late at night because it tends to keep me awake.", ideas: ["Relaxing activities", "Family time"], grammar: "'either ... or ...' for options.", vocab: ["downtime", "unwind", "stay off"] },
+        { q: "Is there anything you would like to change in your daily routine?", sample: "Yes, I'd really love to fit in some regular exercise. At the moment my schedule is so packed that I keep putting it off, which I know isn't great. Ideally, I'd like to make it a proper daily habit rather than something I do now and then.", ideas: ["One change", "Why it's hard now"], grammar: "'keep + -ing' for repeated actions: 'I keep putting it off.'", vocab: ["fit in", "put off — postpone", "packed schedule"] },
+        { q: "How do you usually spend your weekends?", sample: "My weekends are much more relaxed than my weekdays. I usually catch up on sleep, meet up with friends, and try to spend some quality time with my family. If the weather's nice, we'll often go out somewhere together, which is always a good way to unwind.", ideas: ["Rest", "Social time"], grammar: "'If the weather's nice, we'll...' — first conditional.", vocab: ["catch up on sleep", "quality time", "meet up with"] }
       ]
     },
     part2: {
@@ -364,11 +369,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Food and Cooking",
       questions: [
-        { q: "What is your favorite type of food?", sample: "I'm a big fan of traditional Uzbek food, especially plov — it's a rich rice dish cooked with meat, carrots and spices, and it's an absolute classic here.", ideas: ["The cuisine/dish", "What's in it"], vocab: ["a big fan of", "rich — full of flavour"] },
-        { q: "Do you enjoy cooking?", sample: "I do, although I'm still learning. I find cooking quite therapeutic — it's a nice way to switch off after studying all day.", ideas: ["Yes/No + skill level", "How it makes you feel"], vocab: ["therapeutic — relaxing", "switch off"] },
-        { q: "What dish do you like to cook the most?", sample: "I'm probably best at making a simple pasta dish. It's quick, it's hard to get wrong, and everyone seems to enjoy it.", ideas: ["A dish", "Why that one"], vocab: ["hard to get wrong"] },
-        { q: "Do you prefer eating out or cooking at home?", sample: "Most of the time I prefer eating at home — it's healthier and cheaper — but I do enjoy eating out now and then as a treat.", ideas: ["Pick one", "A reason for each"], vocab: ["as a treat", "now and then"] },
-        { q: "Are there any traditional dishes in your culture?", sample: "Absolutely. Besides plov, we have dishes like shashlik and samsa, and they're a huge part of celebrations and family gatherings.", ideas: ["Name a few", "When they're eaten"], vocab: ["gatherings", "a huge part of"] }
+        { q: "What is your favorite type of food?", sample: "I'm a big fan of traditional Uzbek food, especially plov. It's a rich rice dish cooked with meat, carrots and spices, and it's an absolute classic here. We usually have it at family gatherings, so for me it's not just tasty — it's tied to a lot of good memories.", ideas: ["The cuisine/dish", "What's in it", "When you eat it"], grammar: "'not just ... — it's also ...' to extend an idea.", vocab: ["a big fan of", "rich — full of flavour", "tied to memories"] },
+        { q: "Do you enjoy cooking?", sample: "I do, although I'd say I'm still learning. I actually find cooking quite therapeutic — it's a nice way to switch off after a long day of studying. I'm not the most skilled cook, but I enjoy experimenting with simple recipes.", ideas: ["Yes/No + skill level", "How it makes you feel"], grammar: "Concession with 'although': 'I do, although I'm still learning.'", vocab: ["therapeutic — relaxing", "switch off", "experiment with"] },
+        { q: "What dish do you like to cook the most?", sample: "I'm probably best at making a simple pasta dish. It's quick, it's pretty hard to get wrong, and everyone in my family seems to enjoy it. When I'm short on time but still want something homemade, that's my go-to option.", ideas: ["A dish", "Why that one"], grammar: "'hard to get wrong' — adjective + infinitive.", vocab: ["hard to get wrong", "go-to option"] },
+        { q: "Do you prefer eating out or cooking at home?", sample: "Most of the time I prefer eating at home — it's both healthier and cheaper, which matters on a student budget. That said, I do enjoy eating out every now and then as a bit of a treat, especially to celebrate something with friends.", ideas: ["Pick one", "A reason for each"], grammar: "'both ... and ...' to combine reasons.", vocab: ["as a treat", "now and then", "on a budget"] },
+        { q: "Are there any traditional dishes in your culture?", sample: "Absolutely, we have quite a few. Besides plov, there are dishes like shashlik and samsa, and they're a huge part of our celebrations and family gatherings. I think food plays a really central role in our culture — no special occasion feels complete without it.", ideas: ["Name a few", "When they're eaten"], grammar: "'play a central role in' — useful collocation.", vocab: ["gatherings", "a huge part of", "play a role in"] }
       ]
     },
     part2: {
@@ -387,11 +392,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Family",
       questions: [
-        { q: "How many people are there in your family?", sample: "There are five of us in my immediate family — my parents, my two siblings and me. We're a fairly close-knit group.", ideas: ["The number", "Who they are"], vocab: ["immediate family", "close-knit — emotionally close"] },
-        { q: "Do you have any siblings?", sample: "Yes, I have an older brother and a younger sister, so I'm right in the middle, which has its ups and downs.", ideas: ["Yes/No", "Order / relationship"], vocab: ["siblings", "ups and downs"] },
-        { q: "Who is the oldest member of your family?", sample: "That would be my grandmother. She's in her late seventies, and she's still incredibly sharp and full of stories.", ideas: ["Who", "A detail about them"], vocab: ["sharp — mentally quick"] },
-        { q: "Do you spend a lot of time with your family?", sample: "I try to, yes. Even though everyone's busy, we make a point of having dinner together most evenings.", ideas: ["How much", "When you meet"], vocab: ["make a point of — do deliberately"] },
-        { q: "What do you like to do together?", sample: "We love sharing meals and chatting, and at the weekends we sometimes go for a drive or visit relatives together.", ideas: ["Shared activities"], vocab: ["go for a drive", "relatives"] }
+        { q: "How many people are there in your family?", sample: "There are five of us in my immediate family — my parents, my two siblings and me. We're a fairly close-knit group, and even though everyone's busy, we make a real effort to stay connected.", ideas: ["The number", "Who they are", "How close you are"], grammar: "'even though' for concession.", vocab: ["immediate family", "close-knit — emotionally close", "make an effort"] },
+        { q: "Do you have any siblings?", sample: "Yes, I have an older brother and a younger sister, so I'm right in the middle, which definitely has its ups and downs. My brother's someone I look up to, and my sister keeps everyone entertained, so it's never boring at home.", ideas: ["Yes/No", "Order / relationship"], grammar: "Relative clause: '..., which has its ups and downs.'", vocab: ["siblings", "ups and downs", "look up to — admire"] },
+        { q: "Who is the oldest member of your family?", sample: "That would be my grandmother. She's in her late seventies now, but she's still incredibly sharp and absolutely full of stories. I love listening to her talk about what life was like when she was young.", ideas: ["Who", "A detail about them"], grammar: "'in her late seventies' for approximate age.", vocab: ["sharp — mentally quick", "full of stories"] },
+        { q: "Do you spend a lot of time with your family?", sample: "I try to, yes. Even though everyone has their own commitments, we make a point of having dinner together most evenings. It's usually the time when we catch up on each other's day, and I really value that.", ideas: ["How much", "When you meet"], grammar: "'make a point of + -ing' = do deliberately.", vocab: ["make a point of", "commitments", "catch up"] },
+        { q: "What do you like to do together?", sample: "We love sharing meals and just chatting around the table, honestly. At the weekends we sometimes go for a drive or visit relatives together. Nothing fancy, but those simple moments are what bring us closer.", ideas: ["Shared activities", "Why they matter"], grammar: "'Nothing fancy, but ...' — natural spoken contrast.", vocab: ["go for a drive", "relatives", "bring us closer"] }
       ]
     },
     part2: {
@@ -410,11 +415,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Travel",
       questions: [
-        { q: "Do you enjoy traveling?", sample: "I absolutely love it. There's nothing quite like experiencing a new place, trying different food and meeting people from other cultures.", ideas: ["Yes/No", "What you love about it"], vocab: ["there's nothing quite like"] },
-        { q: "What is the most interesting place you've visited?", sample: "Probably Bukhara — the history there is incredible, and walking through the old streets felt like stepping back in time.", ideas: ["A place", "Why interesting"], vocab: ["step back in time"] },
-        { q: "Would you like to travel more in the future?", sample: "Definitely. I'd love to explore more of the world, especially countries in Europe and East Asia.", ideas: ["Yes/No", "Where"], vocab: ["explore"] },
-        { q: "What type of places do you like to visit?", sample: "I'm drawn to historical cities more than beach resorts. I find old architecture and local culture far more fascinating.", ideas: ["Type of place", "Why"], vocab: ["drawn to — attracted to"] },
-        { q: "Is there a destination you would like to visit soon?", sample: "Turkey is high on my list at the moment — Istanbul in particular looks like the perfect mix of history and modern life.", ideas: ["A destination", "Why soon"], vocab: ["high on my list"] }
+        { q: "Do you enjoy traveling?", sample: "I absolutely love it. There's nothing quite like experiencing a new place — trying different food, hearing a new language, and meeting people from other cultures. I always come back feeling refreshed and with a broader view of the world.", ideas: ["Yes/No", "What you love about it"], grammar: "'There's nothing quite like + -ing' for emphasis.", vocab: ["there's nothing quite like", "broaden your view"] },
+        { q: "What is the most interesting place you've visited?", sample: "Probably Bukhara, to be honest. The history there is incredible, and walking through the old streets genuinely felt like stepping back in time. Every corner seemed to have a story behind it, which I found fascinating.", ideas: ["A place", "Why interesting"], grammar: "'felt like + -ing' for impressions.", vocab: ["step back in time", "a story behind it"] },
+        { q: "Would you like to travel more in the future?", sample: "Definitely. I'd love to explore much more of the world, especially countries in Europe and East Asia. I think travelling is one of the best ways to learn, so it's a big goal of mine once I finish my studies.", ideas: ["Yes/No", "Where", "Why"], grammar: "'once I finish my studies' — time clause.", vocab: ["explore", "a big goal of mine"] },
+        { q: "What type of places do you like to visit?", sample: "I'm definitely more drawn to historical cities than beach resorts. I find old architecture and local culture far more fascinating than just lying on a beach. Don't get me wrong, I enjoy relaxing too, but I prefer trips where I actually learn something.", ideas: ["Type of place", "Why"], grammar: "'Don't get me wrong, but ...' — natural balancing phrase.", vocab: ["drawn to — attracted to", "don't get me wrong"] },
+        { q: "Is there a destination you would like to visit soon?", sample: "Turkey is high on my list at the moment, especially Istanbul. From what I've seen, it looks like the perfect mix of history and modern life, plus the food looks amazing. I'm hoping to make it there within the next year or two.", ideas: ["A destination", "Why soon"], grammar: "'From what I've seen, ...' to report impressions.", vocab: ["high on my list", "a mix of"] }
       ]
     },
     part2: {
@@ -433,11 +438,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Friends",
       questions: [
-        { q: "Do you have many friends?", sample: "I wouldn't say I have a huge number, but I have a small circle of really close friends, and honestly I prefer quality over quantity.", ideas: ["How many", "Quality vs quantity"], vocab: ["a close circle", "quality over quantity"] },
-        { q: "How do you usually spend time with your friends?", sample: "We usually grab a coffee, go for walks, or sometimes just stay in and play games. Nothing fancy, but always good fun.", ideas: ["Activities"], vocab: ["grab a coffee", "stay in"] },
-        { q: "What qualities do you value in a friend?", sample: "Above all, I value honesty and loyalty. I want friends I can trust completely and who'll stand by me when things get tough.", ideas: ["Key qualities", "Why"], vocab: ["loyalty", "stand by — support"] },
-        { q: "Is it important to make new friends as an adult?", sample: "I think it really is. As we grow, our interests change, and making new friends keeps life fresh and broadens your perspective.", ideas: ["Yes/No", "Why"], vocab: ["broaden your perspective"] },
-        { q: "What makes a good friend?", sample: "A good friend is someone who listens without judging and is there for you in both good times and bad.", ideas: ["Define it", "An example"], vocab: ["without judging", "through thick and thin"] }
+        { q: "Do you have many friends?", sample: "I wouldn't say I have a huge number, but I have a small circle of really close friends. Honestly, I prefer quality over quantity — I'd much rather have a few people I can truly count on than dozens of casual acquaintances.", ideas: ["How many", "Quality vs quantity"], grammar: "'I'd much rather ... than ...' to express preference.", vocab: ["a close circle", "quality over quantity", "count on"] },
+        { q: "How do you usually spend time with your friends?", sample: "We usually grab a coffee, go for walks, or sometimes just stay in and play games. Nothing fancy, but it's always good fun. The main thing for me is the conversation — we can talk for hours without ever running out of things to say.", ideas: ["Activities", "What matters most"], grammar: "'without + -ing': 'without running out of things to say.'", vocab: ["grab a coffee", "stay in", "run out of"] },
+        { q: "What qualities do you value in a friend?", sample: "Above all, I value honesty and loyalty. I want friends I can trust completely and who'll stand by me when things get tough, not just when everything's going well. A good sense of humour is a big bonus too.", ideas: ["Key qualities", "Why"], grammar: "'not just ... but ...' to add depth.", vocab: ["loyalty", "stand by — support", "a big bonus"] },
+        { q: "Is it important to make new friends as an adult?", sample: "I think it really is. As we grow, our interests and circumstances change, and making new friends keeps life fresh and broadens your perspective. It can be harder than it was at school, but in my opinion it's well worth the effort.", ideas: ["Yes/No", "Why", "A challenge"], grammar: "'well worth the effort' — useful phrase.", vocab: ["broaden your perspective", "well worth it"] },
+        { q: "What makes a good friend?", sample: "For me, a good friend is someone who listens without judging and is there for you in both good times and bad. They're honest with you even when it's hard to hear, because they genuinely have your best interests at heart.", ideas: ["Define it", "An example"], grammar: "'there for you in good times and bad' — common collocation.", vocab: ["without judging", "have your best interests at heart"] }
       ]
     },
     part2: {
@@ -456,11 +461,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Daily Activities",
       questions: [
-        { q: "What do you usually do in the morning?", sample: "I like to start slowly — a glass of water, a bit of stretching, and then I dive into my most important study tasks while I'm fresh.", ideas: ["Routine", "Why that order"], vocab: ["dive into"] },
-        { q: "How do you spend your evenings?", sample: "Evenings are for winding down. I'll have dinner with my family and usually read or watch something light before bed.", ideas: ["Activities"], vocab: ["wind down"] },
-        { q: "Do you have a favorite time of day?", sample: "Early morning, without a doubt. It's quiet, peaceful, and I feel like I can think most clearly then.", ideas: ["Time + why"], vocab: ["peaceful"] },
-        { q: "Is there a specific routine you follow before bedtime?", sample: "I always try to read for twenty minutes and avoid my phone — it helps me switch off and sleep much better.", ideas: ["A habit", "Why"], vocab: ["switch off"] },
-        { q: "What do you like to do on weekends?", sample: "Weekends are flexible. I catch up on rest, meet friends, and tackle little jobs I didn't have time for during the week.", ideas: ["Mix of activities"], vocab: ["tackle — deal with"] }
+        { q: "What do you usually do in the morning?", sample: "I like to ease into my morning rather than rush. I'll have a glass of water, do a bit of stretching, and then dive into my most important study tasks while my mind is still fresh. Starting calmly really sets the tone for the rest of my day.", ideas: ["Routine", "Why that order"], grammar: "'rather than + -ing' for contrast.", vocab: ["ease into", "dive into", "set the tone"] },
+        { q: "How do you spend your evenings?", sample: "My evenings are mostly about winding down. I'll have dinner with my family, and after that I usually read or watch something light before bed. I deliberately avoid heavy work late at night because it stops me sleeping properly.", ideas: ["Activities", "Why"], grammar: "'deliberately' as a natural adverb.", vocab: ["wind down", "deliberately"] },
+        { q: "Do you have a favorite time of day?", sample: "Early morning, without a doubt. It's quiet and peaceful, and I feel like I can think most clearly before the world wakes up. I get a real sense of calm from having that time entirely to myself.", ideas: ["Time + why"], grammar: "Superlative: 'I can think most clearly.'", vocab: ["peaceful", "a sense of calm"] },
+        { q: "Is there a specific routine you follow before bedtime?", sample: "Yes, I always try to read for about twenty minutes and stay off my phone. I've found that little habit really helps me switch off and fall asleep much faster. Screens late at night just leave my mind too active.", ideas: ["A habit", "Why"], grammar: "'I've found that ...' to share experience.", vocab: ["switch off", "fall asleep"] },
+        { q: "What do you like to do on weekends?", sample: "Weekends are pretty flexible for me. I catch up on rest, meet up with friends, and tackle the little jobs I never had time for during the week. It's a nice balance of relaxing and getting things done.", ideas: ["Mix of activities"], grammar: "'a balance of X and Y' — useful structure.", vocab: ["tackle — deal with", "catch up on rest"] }
       ]
     },
     part2: {
@@ -479,11 +484,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Free Time",
       questions: [
-        { q: "What do you like to do in your free time?", sample: "I usually read, go for walks or catch up with friends — simple things that help me recharge.", ideas: ["Hobbies"], vocab: ["recharge"] },
-        { q: "How often do you have free time?", sample: "Not as often as I'd like, to be honest. Between studying and other commitments, my free time is mostly limited to weekends.", ideas: ["How much", "Why limited"], vocab: ["commitments"] },
-        { q: "Do you prefer spending your free time alone or with others?", sample: "It depends on my mood — sometimes I need quiet time alone to recharge, but other times nothing beats good company.", ideas: ["Pick / depends", "Why"], vocab: ["nothing beats", "good company"] },
-        { q: "Is there a specific place you like to go to when you have free time?", sample: "I love going to a nearby park. Being surrounded by greenery instantly puts me in a better mood.", ideas: ["A place", "Why"], vocab: ["greenery"] },
-        { q: "What activities help you relax?", sample: "Reading and listening to calm music are my go-to ways to relax. They help me clear my mind completely.", ideas: ["Activities"], vocab: ["go-to", "clear my mind"] }
+        { q: "What do you like to do in your free time?", sample: "In my free time I usually read, go for walks or catch up with friends — simple things that help me recharge. After a busy week, I really value just slowing down and doing something I enjoy rather than feeling productive all the time.", ideas: ["Hobbies", "Why"], grammar: "'rather than + -ing' for contrast.", vocab: ["recharge", "slow down"] },
+        { q: "How often do you have free time?", sample: "Not as often as I'd like, to be honest. Between studying and other commitments, my free time is mostly limited to the weekends. That's exactly why I try to make the most of it whenever I get the chance.", ideas: ["How much", "Why limited"], grammar: "'Not as ... as I'd like' — natural comparison.", vocab: ["commitments", "make the most of"] },
+        { q: "Do you prefer spending your free time alone or with others?", sample: "It honestly depends on my mood. Sometimes I need quiet time alone to recharge and clear my head, but other times nothing beats good company and a few laughs with friends. I think a healthy mix of both is what works best for me.", ideas: ["Pick / depends", "Why"], grammar: "'nothing beats + noun' for emphasis.", vocab: ["nothing beats", "good company", "a healthy mix"] },
+        { q: "Is there a specific place you like to go to when you have free time?", sample: "I really love going to a nearby park. Being surrounded by greenery instantly puts me in a better mood, and it's a nice escape from the noise of the city. I'll often take a book and just spend an hour or two there.", ideas: ["A place", "Why"], grammar: "'Being surrounded by ...' — gerund as subject.", vocab: ["greenery", "an escape from"] },
+        { q: "What activities help you relax?", sample: "Reading and listening to calm music are my go-to ways to relax. They help me completely clear my mind and forget about any stress. Even just twenty minutes of either one can totally reset my mood.", ideas: ["Activities", "Effect"], grammar: "'Even just ... can ...' to show impact.", vocab: ["go-to", "clear my mind", "reset my mood"] }
       ]
     },
     part2: {
@@ -502,11 +507,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Shopping",
       questions: [
-        { q: "Do you like shopping?", sample: "I have mixed feelings about it. I enjoy shopping for books or gadgets, but clothes shopping can drive me up the wall.", ideas: ["Yes/No/mixed", "What you like or not"], vocab: ["mixed feelings", "drive me up the wall — annoy me"] },
-        { q: "Where do you usually go shopping?", sample: "For everyday things I head to a local market, but for bigger purchases I usually go to a shopping mall in the city centre.", ideas: ["Places", "What for"], vocab: ["everyday things", "purchases"] },
-        { q: "What kinds of things do you like to buy?", sample: "I tend to spend my money on books and the occasional piece of tech — things I'll get a lot of use out of.", ideas: ["Items", "Why"], vocab: ["get use out of"] },
-        { q: "Do you prefer shopping alone or with others?", sample: "Mostly alone, actually. I can take my time and make decisions without feeling rushed.", ideas: ["Pick one", "Why"], vocab: ["take my time", "feel rushed"] },
-        { q: "Are there any items you don't enjoy shopping for?", sample: "Definitely clothes. I find it tiring trying on lots of things, so I usually just get in and out as fast as I can.", ideas: ["An item", "Why"], vocab: ["try on", "get in and out"] }
+        { q: "Do you like shopping?", sample: "I'd say I have mixed feelings about it. I really enjoy shopping for things like books or gadgets, but clothes shopping can honestly drive me up the wall. It just depends entirely on what I'm actually shopping for.", ideas: ["Yes/No/mixed", "What you like or not"], grammar: "'It depends entirely on ...' — natural hedging.", vocab: ["mixed feelings", "drive me up the wall — annoy me"] },
+        { q: "Where do you usually go shopping?", sample: "For everyday things like groceries, I tend to head to a local market because it's quick and fresh. But for bigger purchases, I usually go to a shopping mall in the city centre where there's more choice. It really depends on what I need.", ideas: ["Places", "What for"], grammar: "'tend to + verb' for habits.", vocab: ["everyday things", "purchases", "more choice"] },
+        { q: "What kinds of things do you like to buy?", sample: "I tend to spend my money on books and the occasional piece of tech — basically things I'll get a lot of use out of. I'm not really an impulse buyer; I prefer to invest in things that are genuinely worth it.", ideas: ["Items", "Why"], grammar: "'get use out of' — useful collocation.", vocab: ["get use out of", "impulse buyer", "worth it"] },
+        { q: "Do you prefer shopping alone or with others?", sample: "Mostly alone, actually. When I'm on my own, I can take my time and make decisions without feeling rushed or pressured. That said, for something important like clothes, a second opinion from a friend can be really helpful.", ideas: ["Pick one", "Why"], grammar: "Concession with 'That said, ...'.", vocab: ["take my time", "feel rushed", "a second opinion"] },
+        { q: "Are there any items you don't enjoy shopping for?", sample: "Definitely clothes. I find it quite tiring trying on lots of different things, so I usually just try to get in and out as fast as I possibly can. I'd much rather order online and avoid the whole hassle, to be honest.", ideas: ["An item", "Why"], grammar: "'I'd much rather ... than ...' for preference.", vocab: ["try on", "get in and out", "hassle"] }
       ]
     },
     part2: {
@@ -525,11 +530,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Music and Movies",
       questions: [
-        { q: "Do you enjoy listening to music?", sample: "Absolutely — music is part of my daily life. I listen while studying, walking, almost everywhere.", ideas: ["Yes/No", "When"], vocab: ["part of daily life"] },
-        { q: "What type of music do you like?", sample: "I have quite a broad taste, but I'm especially fond of calm, acoustic music when I need to focus.", ideas: ["Genres", "When"], vocab: ["broad taste", "acoustic"] },
-        { q: "Do you like watching movies?", sample: "I do, though I'm a bit picky. I'd rather watch one great film than several average ones.", ideas: ["Yes/No", "Preference"], vocab: ["picky — selective"] },
-        { q: "What genre of movies do you prefer?", sample: "I'm drawn to science fiction and thrillers — anything that keeps me guessing and makes me think.", ideas: ["Genre", "Why"], vocab: ["keep me guessing"] },
-        { q: "Is there a specific artist or actor you admire?", sample: "I really admire Leonardo DiCaprio — he completely disappears into every role he plays.", ideas: ["Who", "Why"], vocab: ["disappear into a role"] }
+        { q: "Do you enjoy listening to music?", sample: "Absolutely — music is a huge part of my daily life. I listen while I'm studying, walking, even cooking, so it's pretty much always on in the background. Different types of music suit my different moods throughout the day.", ideas: ["Yes/No", "When"], grammar: "'pretty much always' — natural intensifier.", vocab: ["part of daily life", "in the background"] },
+        { q: "What type of music do you like?", sample: "I've got quite a broad taste, actually, but I'm especially fond of calm, acoustic music when I need to focus. When I want to feel more energetic, though, I'll switch to something a bit more upbeat. It really depends on what I'm doing.", ideas: ["Genres", "When"], grammar: "Contrast with 'though' mid-sentence.", vocab: ["broad taste", "acoustic", "upbeat"] },
+        { q: "Do you like watching movies?", sample: "I do, though I have to admit I'm a bit picky. I'd much rather watch one really great film than sit through several average ones. When I find a film I love, I can easily get completely absorbed in it.", ideas: ["Yes/No", "Preference"], grammar: "'I'd much rather ... than ...'.", vocab: ["picky — selective", "get absorbed in"] },
+        { q: "What genre of movies do you prefer?", sample: "I'm really drawn to science fiction and thrillers — basically anything that keeps me guessing and makes me think. I love a clever plot twist that I didn't see coming. Comedies are great for relaxing too, but those two genres are my favourites.", ideas: ["Genre", "Why"], grammar: "'anything that ...' — relative clause.", vocab: ["keep me guessing", "plot twist"] },
+        { q: "Is there a specific artist or actor you admire?", sample: "I really admire Leonardo DiCaprio. What impresses me most is how he completely disappears into every role he plays — you forget you're even watching an actor. On top of that, I respect how much he does for environmental causes.", ideas: ["Who", "Why"], grammar: "'What impresses me most is ...' for emphasis.", vocab: ["disappear into a role", "environmental causes"] }
       ]
     },
     part2: {
@@ -548,11 +553,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Seasons and Weather",
       questions: [
-        { q: "What is your favorite season? Why do you like it?", sample: "Autumn is my favourite by far. The weather is cool and comfortable, and the golden leaves make everything look beautiful.", ideas: ["Season", "Why"], vocab: ["golden leaves", "by far"] },
-        { q: "What type of weather do you enjoy the most?", sample: "I love mild, sunny days — warm enough to be outside but not so hot that it's uncomfortable.", ideas: ["Weather", "Why"], vocab: ["mild"] },
-        { q: "Are there any activities you prefer during specific seasons?", sample: "In summer I love swimming and being outdoors, whereas in winter I prefer cosy indoor activities like reading.", ideas: ["Seasonal activities"], vocab: ["whereas", "cosy"] },
-        { q: "How does the weather affect your daily routine?", sample: "Quite a lot, actually. On sunny days I'm motivated to go out, but grey, rainy weather makes me want to stay in and relax.", ideas: ["Effect on mood/plans"], vocab: ["motivated", "stay in"] },
-        { q: "Do you prefer hot or cold weather?", sample: "If I had to choose, I'd pick cool weather. You can always add a layer if you're cold, but there's only so much you can do in the heat.", ideas: ["Pick one", "Reason"], vocab: ["add a layer"] }
+        { q: "What is your favorite season? Why do you like it?", sample: "Autumn is my favourite by far. The weather is cool and comfortable, which is perfect for going outside, and the golden leaves make everything look beautiful. There's also a really cosy feeling in the air that I just love.", ideas: ["Season", "Why"], grammar: "'by far' to strengthen a superlative.", vocab: ["golden leaves", "by far", "cosy feeling"] },
+        { q: "What type of weather do you enjoy the most?", sample: "I really love mild, sunny days — warm enough to be outside comfortably but not so hot that it's unbearable. On days like that, I feel far more energetic and motivated to actually get out and do things.", ideas: ["Weather", "Why"], grammar: "'warm enough to ... but not so hot that ...'.", vocab: ["mild", "unbearable", "motivated"] },
+        { q: "Are there any activities you prefer during specific seasons?", sample: "Definitely. In summer I love swimming and spending time outdoors, whereas in winter I prefer cosy indoor activities like reading or watching films. I think each season has its own charm and its own set of activities.", ideas: ["Seasonal activities"], grammar: "'whereas' for contrast.", vocab: ["whereas", "cosy", "its own charm"] },
+        { q: "How does the weather affect your daily routine?", sample: "Quite a lot, actually. On bright, sunny days I'm much more motivated to go out and be active, but grey, rainy weather tends to make me want to stay in and just relax. My energy levels are honestly pretty tied to the weather.", ideas: ["Effect on mood/plans"], grammar: "'tends to make me want to ...' — natural pattern.", vocab: ["motivated", "stay in", "tied to"] },
+        { q: "Do you prefer hot or cold weather?", sample: "If I had to choose, I'd pick cool weather over hot. The way I see it, you can always add another layer if you're cold, but there's only so much you can do when it's boiling. So cooler weather feels far more manageable to me.", ideas: ["Pick one", "Reason"], grammar: "'there's only so much you can do' — idiomatic.", vocab: ["add a layer", "boiling — very hot", "manageable"] }
       ]
     },
     part2: {
@@ -571,11 +576,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Hobbies and Leisure",
       questions: [
-        { q: "What are your favorite hobbies in your free time?", sample: "Reading and walking are my two main ones — both relaxing and good for the mind.", ideas: ["Hobbies"], vocab: ["good for the mind"] },
-        { q: "Have you recently started a new hobby or activity?", sample: "Yes, I've recently started journaling, and it's been a surprisingly nice way to reflect on my day.", ideas: ["New hobby", "How it's going"], vocab: ["journaling", "reflect on"] },
-        { q: "How do you usually relax after a day of work or study?", sample: "I unwind with a good book or some calm music. It helps me leave the day's stress behind.", ideas: ["How you relax"], vocab: ["unwind"] },
-        { q: "Do you prefer indoor or outdoor activities?", sample: "I lean towards outdoor activities — fresh air and a change of scenery always lift my spirits.", ideas: ["Pick one", "Why"], vocab: ["change of scenery", "lift my spirits"] },
-        { q: "What's a leisure activity you've always wanted to try?", sample: "I've always wanted to try hiking in the mountains — being surrounded by nature really appeals to me.", ideas: ["Activity", "Why"], vocab: ["appeal to"] }
+        { q: "What are your favorite hobbies in your free time?", sample: "Reading and walking are my two main ones, and I'd say they're both relaxing and good for the mind. Reading lets me escape into different worlds, while walking helps me clear my head, so together they keep me pretty balanced.", ideas: ["Hobbies", "Why each"], grammar: "'while' to contrast two ideas.", vocab: ["good for the mind", "escape into", "clear my head"] },
+        { q: "Have you recently started a new hobby or activity?", sample: "Yes, I've recently started journaling, and it's been a surprisingly nice way to reflect on my day. I just write down a few thoughts each evening, and somehow it really helps me clear my mind before bed. I didn't expect to enjoy it as much as I do.", ideas: ["New hobby", "How it's going"], grammar: "'as much as I do' for emphasis.", vocab: ["journaling", "reflect on"] },
+        { q: "How do you usually relax after a day of work or study?", sample: "I usually unwind with a good book or some calm music. It helps me leave the day's stress behind and properly switch off. If I've had a particularly tough day, a short walk usually does the trick too.", ideas: ["How you relax"], grammar: "'does the trick' — idiomatic.", vocab: ["unwind", "switch off", "do the trick"] },
+        { q: "Do you prefer indoor or outdoor activities?", sample: "I lean towards outdoor activities, mainly because the fresh air and a change of scenery always lift my spirits. Being cooped up indoors all day can make me feel a bit sluggish, so I try to get outside whenever the weather allows.", ideas: ["Pick one", "Why"], grammar: "'whenever the weather allows' — time clause.", vocab: ["change of scenery", "lift my spirits", "cooped up"] },
+        { q: "What's a leisure activity you've always wanted to try?", sample: "I've always wanted to try hiking in the mountains. Being completely surrounded by nature really appeals to me, and I imagine reaching the top after a long climb would feel incredibly rewarding. It's something I'm hoping to do this summer.", ideas: ["Activity", "Why"], grammar: "'I imagine ... would feel ...' — speculation.", vocab: ["appeal to", "rewarding"] }
       ]
     },
     part2: {
@@ -594,11 +599,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Food and Cuisine",
       questions: [
-        { q: "What's your favorite type of cuisine?", sample: "I'm a big fan of Italian cuisine — fresh ingredients, simple recipes, and so much flavour.", ideas: ["Cuisine", "Why"], vocab: ["fresh ingredients"] },
-        { q: "Do you enjoy cooking at home?", sample: "I do, especially at weekends when I actually have time to experiment rather than just rushing.", ideas: ["Yes/No", "When"], vocab: ["experiment"] },
-        { q: "Is there a particular dish you would love to learn how to make?", sample: "I'd really like to master homemade lasagne — it looks complicated, but it's such a crowd-pleaser.", ideas: ["A dish", "Why"], vocab: ["master", "crowd-pleaser"] },
-        { q: "Have you ever tried food from a foreign country?", sample: "Yes, I've tried quite a few — Turkish, Korean and Italian especially — and I love discovering new flavours.", ideas: ["Which", "How you found it"], vocab: ["flavours"] },
-        { q: "What's the most unusual meal you have ever eaten?", sample: "Probably a very spicy Korean dish a friend introduced me to. It was unusual but surprisingly delicious.", ideas: ["The meal", "Your reaction"], vocab: ["surprisingly"] }
+        { q: "What's your favorite type of cuisine?", sample: "I'm a big fan of Italian cuisine, honestly. I love how it relies on fresh ingredients and fairly simple recipes, yet the dishes are still packed with flavour. Pizza and pasta are obvious favourites, but there's so much more to it than that.", ideas: ["Cuisine", "Why"], grammar: "'yet' for contrast within a sentence.", vocab: ["fresh ingredients", "packed with flavour"] },
+        { q: "Do you enjoy cooking at home?", sample: "I do, especially at the weekends when I actually have time to experiment rather than just throwing something together quickly. During the week it's more about convenience, but on a relaxed Sunday, cooking becomes something I genuinely enjoy.", ideas: ["Yes/No", "When"], grammar: "'rather than + -ing' for contrast.", vocab: ["experiment", "throw something together", "convenience"] },
+        { q: "Is there a particular dish you would love to learn how to make?", sample: "I'd really like to master a proper homemade lasagne. It looks fairly complicated with all the layers, but it's such a crowd-pleaser that I think it would be well worth the effort. It's definitely on my cooking bucket list.", ideas: ["A dish", "Why"], grammar: "'well worth the effort' — useful phrase.", vocab: ["master", "crowd-pleaser", "bucket list"] },
+        { q: "Have you ever tried food from a foreign country?", sample: "Yes, I've tried quite a few — Turkish, Korean and Italian especially. I really love discovering new flavours and stepping outside my comfort zone, even if the dish turns out to be completely different from what I expected.", ideas: ["Which", "How you found it"], grammar: "'even if' for concession.", vocab: ["flavours", "comfort zone"] },
+        { q: "What's the most unusual meal you have ever eaten?", sample: "Probably a very spicy Korean dish that a friend introduced me to. It was definitely unusual for my taste buds, but it turned out to be surprisingly delicious. I'm really glad I gave it a try instead of sticking to what I knew.", ideas: ["The meal", "Your reaction"], grammar: "'instead of + -ing' for contrast.", vocab: ["taste buds", "give it a try", "stick to"] }
       ]
     },
     part2: {
@@ -617,11 +622,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Friends",
       questions: [
-        { q: "Do you have a best friend, and how often do you see them?", sample: "Yes, I've had the same best friend since school. We don't see each other every day, but we catch up at least once a week.", ideas: ["Yes/No", "How often"], vocab: ["catch up"] },
-        { q: "What qualities do you think are important in a friend?", sample: "Trust and a good sense of humour, mainly. I want someone I can rely on but also laugh with.", ideas: ["Qualities"], vocab: ["rely on"] },
-        { q: "Have you made any new friends recently?", sample: "Yes, I've made a couple of new friends at university who share my interests, which is always nice.", ideas: ["Yes/No", "Where"], vocab: ["share interests"] },
-        { q: "What activities do you enjoy doing with your friends?", sample: "We love grabbing food, going for walks and occasionally playing sports together.", ideas: ["Activities"], vocab: ["grab food"] },
-        { q: "Can friends influence a person's decisions? How?", sample: "Definitely. Good friends can encourage you to make better choices, but the wrong crowd can push you the other way too.", ideas: ["Yes/No", "How"], vocab: ["the wrong crowd", "push the other way"] }
+        { q: "Do you have a best friend, and how often do you see them?", sample: "Yes, I've had the same best friend since school, which I feel really lucky about. We don't manage to see each other every day because we're both busy, but we catch up at least once a week. And even when we don't meet, we're constantly texting.", ideas: ["Yes/No", "How often"], grammar: "'which I feel lucky about' — relative clause.", vocab: ["catch up", "constantly"] },
+        { q: "What qualities do you think are important in a friend?", sample: "For me, trust and a good sense of humour are the most important. I want someone I can rely on completely, but who I can also laugh with and not take life too seriously. A friend who has both of those is pretty rare.", ideas: ["Qualities", "Why"], grammar: "'someone I can rely on' — contact clause.", vocab: ["rely on", "a sense of humour"] },
+        { q: "Have you made any new friends recently?", sample: "Yes, I've made a couple of new friends at university who happen to share my interests, which is always nice. It can be a bit harder to make friends as you get older, so I really appreciate it when you naturally click with someone.", ideas: ["Yes/No", "Where"], grammar: "'click with someone' — idiomatic.", vocab: ["share interests", "click with"] },
+        { q: "What activities do you enjoy doing with your friends?", sample: "We love grabbing food together, going for walks, and occasionally playing sports. To be honest, though, the activity itself doesn't matter that much — the best part is simply spending time together and having a good laugh.", ideas: ["Activities", "What matters"], grammar: "'the activity doesn't matter that much' — natural hedging.", vocab: ["grab food", "have a good laugh"] },
+        { q: "Can friends influence a person's decisions? How?", sample: "Definitely, friends can have a huge influence. Good friends can encourage you to make better choices and push you to improve, whereas the wrong crowd can easily lead you down the wrong path. So I think choosing your friends carefully really matters.", ideas: ["Yes/No", "How"], grammar: "'whereas' for contrast.", vocab: ["the wrong crowd", "lead down the wrong path"] }
       ]
     },
     part2: {
@@ -640,11 +645,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Technology",
       questions: [
-        { q: "What tech gadgets do you use daily?", sample: "My phone and laptop are essential — I use them for studying, communicating and entertainment all day long.", ideas: ["Gadgets", "What for"], vocab: ["essential"] },
-        { q: "Do you think technology has made life easier?", sample: "Overall, yes. It saves us a huge amount of time, although it can also be a bit of a distraction if you're not careful.", ideas: ["Yes/No", "A downside"], vocab: ["distraction"] },
-        { q: "What's one piece of technology you couldn't live without?", sample: "Honestly, my smartphone. It's basically my study tool, my map, my camera and my connection to everyone all in one.", ideas: ["The item", "Why"], vocab: ["all in one"] },
-        { q: "Have you recently downloaded any interesting apps?", sample: "Yes, I recently downloaded a language-learning app, and it's made practising vocabulary genuinely fun.", ideas: ["An app", "Why"], vocab: ["language-learning"] },
-        { q: "How do you keep up with technology news?", sample: "I mostly follow a few tech channels on YouTube and social media — it's a quick, easy way to stay updated.", ideas: ["Sources"], vocab: ["stay updated"] }
+        { q: "What tech gadgets do you use daily?", sample: "My phone and my laptop are absolutely essential to me. I use them for studying, communicating with people, and entertainment, pretty much all day long. Honestly, I'd find it really hard to get through a normal day without them.", ideas: ["Gadgets", "What for"], grammar: "'I'd find it hard to ...' — second conditional flavour.", vocab: ["essential", "get through the day"] },
+        { q: "Do you think technology has made life easier?", sample: "Overall, I'd say yes, definitely. It saves us a huge amount of time and makes information instantly available, which is incredible. That said, it can also be a bit of a distraction if you're not careful, so it's really about using it wisely.", ideas: ["Yes/No", "A downside"], grammar: "Concession with 'That said, ...'.", vocab: ["distraction", "use it wisely"] },
+        { q: "What's one piece of technology you couldn't live without?", sample: "Honestly, it would have to be my smartphone. It's basically my study tool, my map, my camera, and my connection to everyone, all rolled into one device. The sheer number of things it can do still amazes me sometimes.", ideas: ["The item", "Why"], grammar: "'all rolled into one' — idiomatic.", vocab: ["all in one", "the sheer number of"] },
+        { q: "Have you recently downloaded any interesting apps?", sample: "Yes, I recently downloaded a language-learning app, and it's actually made practising vocabulary genuinely fun. It turns learning into a kind of game with little daily goals, so it keeps me coming back. I've been surprisingly consistent with it.", ideas: ["An app", "Why"], grammar: "'keeps me coming back' — pattern.", vocab: ["language-learning", "daily goals"] },
+        { q: "How do you keep up with technology news?", sample: "I mostly follow a few tech channels on YouTube and some accounts on social media. It's a quick, easy way to stay updated without having to read long articles. I find short videos suit my busy schedule much better.", ideas: ["Sources", "Why"], grammar: "'without having to ...' — useful structure.", vocab: ["stay updated", "suit my schedule"] }
       ]
     },
     part2: {
@@ -663,11 +668,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Learning and Education",
       questions: [
-        { q: "What subject did you enjoy most at school?", sample: "I always enjoyed history the most — I loved hearing the stories behind how the world became what it is today.", ideas: ["Subject", "Why"], vocab: ["the stories behind"] },
-        { q: "Are you learning something new at the moment?", sample: "Yes, apart from English I'm slowly teaching myself the basics of coding, which I find really engaging.", ideas: ["What", "How"], vocab: ["engaging"] },
-        { q: "Do you prefer online courses or classroom learning?", sample: "Each has its perks, but I slightly prefer classroom learning because of the direct interaction with teachers and classmates.", ideas: ["Pick one", "Why"], vocab: ["perks — advantages", "interaction"] },
-        { q: "How do you usually learn best — listening, watching, or doing?", sample: "Definitely by doing. I remember things far better when I actually practise them rather than just reading or listening.", ideas: ["Your style", "Why"], vocab: ["hands-on"] },
-        { q: "What's something you've always wanted to study but haven't yet?", sample: "I've always wanted to study psychology — understanding why people behave the way they do really fascinates me.", ideas: ["Subject", "Why"], vocab: ["fascinate"] }
+        { q: "What subject did you enjoy most at school?", sample: "I always enjoyed history the most. I loved hearing the stories behind how the world became what it is today, and our teacher had a real gift for making it exciting rather than just a list of dates. It never felt like a chore to me.", ideas: ["Subject", "Why"], grammar: "'had a gift for + -ing'.", vocab: ["the stories behind", "a chore"] },
+        { q: "Are you learning something new at the moment?", sample: "Yes, apart from English I'm slowly teaching myself the basics of coding, which I find really engaging. It's quite challenging, but there's a great feeling of satisfaction whenever I finally get something to work. I try to practise a little each day.", ideas: ["What", "How"], grammar: "'apart from ...' to add information.", vocab: ["engaging", "a feeling of satisfaction"] },
+        { q: "Do you prefer online courses or classroom learning?", sample: "Each has its own perks, but I slightly prefer classroom learning because of the direct interaction with teachers and classmates. You can ask questions instantly and bounce ideas off others. Online courses are more flexible, though, which is a big advantage too.", ideas: ["Pick one", "Why"], grammar: "Concession with 'though'.", vocab: ["perks — advantages", "interaction", "bounce ideas off"] },
+        { q: "How do you usually learn best — listening, watching, or doing?", sample: "Definitely by doing, hands down. I remember things far better when I actually practise them rather than just reading or listening passively. For me, making mistakes and then correcting them is where the real learning happens.", ideas: ["Your style", "Why"], grammar: "'rather than + -ing'.", vocab: ["hands-on", "passively", "hands down"] },
+        { q: "What's something you've always wanted to study but haven't yet?", sample: "I've always wanted to study psychology. Understanding why people behave the way they do really fascinates me, and I think it would be useful in almost every area of life. I just haven't found the time for it yet, but maybe one day.", ideas: ["Subject", "Why"], grammar: "'the way they do' — natural phrase.", vocab: ["fascinate", "behave"] }
       ]
     },
     part2: {
@@ -686,11 +691,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Reading",
       questions: [
-        { q: "Do you like reading books?", sample: "I love it. Reading is one of my favourite ways to relax and learn at the same time.", ideas: ["Yes/No", "Why"], vocab: ["at the same time"] },
-        { q: "What kind of books do you prefer?", sample: "I mostly enjoy fiction and the occasional self-improvement book — a nice balance of escape and growth.", ideas: ["Genres", "Why"], vocab: ["self-improvement"] },
-        { q: "How often do you visit a library?", sample: "Not as often as I used to, since I read a lot on my phone now, but I still pop in every few weeks.", ideas: ["How often", "Why"], vocab: ["pop in"] },
-        { q: "Do you prefer reading physical books or e-books?", sample: "I genuinely prefer physical books — there's something satisfying about turning real pages — but e-books are far more convenient.", ideas: ["Pick one", "Trade-off"], vocab: ["satisfying", "convenient"] },
-        { q: "Has your taste in books changed since you were younger?", sample: "Definitely. As a child I only read adventure stories, but now I'm drawn to deeper, more thought-provoking books.", ideas: ["Then vs now"], vocab: ["thought-provoking"] }
+        { q: "Do you like reading books?", sample: "I absolutely love it. For me, reading is one of the best ways to relax and learn at the same time. I can lose myself in a good story for hours and completely forget about everything else, which is a feeling I really treasure.", ideas: ["Yes/No", "Why"], grammar: "'at the same time' to combine ideas.", vocab: ["lose myself in", "treasure"] },
+        { q: "What kind of books do you prefer?", sample: "I mostly enjoy fiction and the occasional self-improvement book. I think it's a nice balance — fiction lets me escape, while self-improvement books actually teach me something useful. So depending on my mood, I'll switch between the two.", ideas: ["Genres", "Why"], grammar: "'while' to contrast.", vocab: ["self-improvement", "escape"] },
+        { q: "How often do you visit a library?", sample: "Not as often as I used to, to be honest, mainly because I read a lot on my phone now. That said, I still like to pop in every few weeks — there's just something about the quiet atmosphere of a library that I really enjoy.", ideas: ["How often", "Why"], grammar: "'Not as often as I used to' — comparison with past.", vocab: ["pop in", "atmosphere"] },
+        { q: "Do you prefer reading physical books or e-books?", sample: "I genuinely prefer physical books — there's something really satisfying about turning real pages and seeing your progress. Having said that, e-books are far more convenient when I'm travelling, since I can carry hundreds of them on one device.", ideas: ["Pick one", "Trade-off"], grammar: "'Having said that, ...' for concession.", vocab: ["satisfying", "convenient"] },
+        { q: "Has your taste in books changed since you were younger?", sample: "Definitely, it's changed a lot. As a child I only really read adventure stories, but now I find myself drawn to deeper, more thought-provoking books. I think my taste has naturally matured along with me, which I find quite interesting.", ideas: ["Then vs now"], grammar: "'find myself drawn to' — reflexive pattern.", vocab: ["thought-provoking", "mature"] }
       ]
     },
     part2: {
@@ -709,11 +714,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Cooking",
       questions: [
-        { q: "Do you enjoy cooking?", sample: "I do, though I'm still a beginner. I find it relaxing and a little creative.", ideas: ["Yes/No", "Skill"], vocab: ["creative"] },
-        { q: "How often do you cook at home?", sample: "A few times a week, usually on days when I have a bit more free time.", ideas: ["Frequency"], vocab: ["free time"] },
-        { q: "Who usually prepares meals in your family?", sample: "Mostly my mother, who's an amazing cook, but the rest of us pitch in when we can.", ideas: ["Who", "Your role"], vocab: ["pitch in — help out"] },
-        { q: "What kind of food do you like to cook?", sample: "Simple, quick dishes mainly — pasta, omelettes, that kind of thing.", ideas: ["Type"], vocab: ["quick dishes"] },
-        { q: "Do you think everyone should learn how to cook?", sample: "Absolutely. It's a basic life skill that keeps you healthier and saves money too.", ideas: ["Yes/No", "Why"], vocab: ["life skill"] }
+        { q: "Do you enjoy cooking?", sample: "I do, though I'd honestly call myself a bit of a beginner still. I find it quite relaxing and even a little creative, especially when I get to try out a new recipe. There's something rewarding about making a meal from scratch.", ideas: ["Yes/No", "Skill"], grammar: "'There's something rewarding about + -ing'.", vocab: ["creative", "from scratch"] },
+        { q: "How often do you cook at home?", sample: "I'd say a few times a week, usually on the days when I have a bit more free time. During busy weeks I tend to keep it simple, but on weekends I'll happily spend longer on something more involved. It really varies.", ideas: ["Frequency", "When"], grammar: "'tend to' for tendencies.", vocab: ["free time", "more involved"] },
+        { q: "Who usually prepares meals in your family?", sample: "It's mostly my mother, who's honestly an amazing cook. The rest of us pitch in when we can, though, especially with the chopping and the washing up. I think cooking together as a family is actually a really nice bonding time.", ideas: ["Who", "Your role"], grammar: "'pitch in' — phrasal verb.", vocab: ["pitch in — help out", "bonding time"] },
+        { q: "What kind of food do you like to cook?", sample: "Mostly simple, quick dishes like pasta, omelettes, and that sort of thing. I prefer recipes that don't take too long but still taste good. As my confidence grows, though, I'm slowly starting to attempt more complicated meals.", ideas: ["Type", "Why"], grammar: "'that sort of thing' — natural vagueness.", vocab: ["quick dishes", "attempt"] },
+        { q: "Do you think everyone should learn how to cook?", sample: "Absolutely, I think it's a really important life skill. Knowing how to cook keeps you healthier, saves you a lot of money, and makes you far more independent. Plus, it's a great way to take care of the people you love.", ideas: ["Yes/No", "Why"], grammar: "'Plus, ...' as an informal additive.", vocab: ["life skill", "independent"] }
       ]
     },
     part2: {
@@ -732,11 +737,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Traveling",
       questions: [
-        { q: "Do you like traveling?", sample: "I love it. Discovering new places and cultures is one of the most exciting things in life for me.", ideas: ["Yes/No", "Why"], vocab: ["discover"] },
-        { q: "How often do you travel?", sample: "Not as often as I'd like, mostly during holidays, but I make the most of every chance I get.", ideas: ["Frequency"], vocab: ["make the most of"] },
-        { q: "What is your favorite mode of transportation?", sample: "I really enjoy travelling by train — it's comfortable, and you get to watch the scenery roll by.", ideas: ["Mode", "Why"], vocab: ["scenery roll by"] },
-        { q: "Do you prefer traveling alone or with others?", sample: "Mostly with others. Sharing the experience with friends or family makes the memories even better.", ideas: ["Pick", "Why"], vocab: ["share the experience"] },
-        { q: "What is the most memorable trip you've taken?", sample: "Definitely my trip to Bukhara — the history and atmosphere there left a lasting impression on me.", ideas: ["The trip", "Why memorable"], vocab: ["lasting impression"] }
+        { q: "Do you like traveling?", sample: "I absolutely love it. For me, discovering new places and experiencing different cultures is one of the most exciting and enriching things in life. I always come home with fresh ideas and wonderful memories, which makes every trip worth it.", ideas: ["Yes/No", "Why"], grammar: "'one of the most ... things in life' — superlative.", vocab: ["discover", "enriching"] },
+        { q: "How often do you travel?", sample: "Not as often as I'd like, unfortunately — mostly during the holidays. Because my opportunities are limited, though, I really make the most of every single chance I get to go somewhere new. Quality over quantity, I suppose.", ideas: ["Frequency", "Attitude"], grammar: "'make the most of' — collocation.", vocab: ["make the most of", "quality over quantity"] },
+        { q: "What is your favorite mode of transportation?", sample: "I really enjoy travelling by train. It's comfortable, you don't have to worry about traffic, and you get to watch the scenery roll by, which I find really relaxing. Compared to flying, it feels far more pleasant and stress-free to me.", ideas: ["Mode", "Why"], grammar: "'Compared to ...' for comparison.", vocab: ["scenery roll by", "stress-free"] },
+        { q: "Do you prefer traveling alone or with others?", sample: "Mostly with others, I'd say. Sharing the experience with friends or family just makes the memories so much better, and there's always someone to laugh with when things go wrong. Travelling alone has its appeal too, but I prefer company.", ideas: ["Pick", "Why"], grammar: "'has its appeal' — useful phrase.", vocab: ["share the experience", "has its appeal"] },
+        { q: "What is the most memorable trip you've taken?", sample: "Definitely my trip to Bukhara. The history and the atmosphere there left a really lasting impression on me, and I still think about it often. Walking through those ancient streets felt almost magical — it's a trip I'll never forget.", ideas: ["The trip", "Why memorable"], grammar: "'left a lasting impression on me'.", vocab: ["lasting impression", "atmosphere"] }
       ]
     },
     part2: {
@@ -755,11 +760,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Music",
       questions: [
-        { q: "Do you enjoy listening to music?", sample: "Definitely — music is the soundtrack to my whole day, from studying to relaxing.", ideas: ["Yes/No", "When"], vocab: ["soundtrack"] },
-        { q: "What kind of music do you like?", sample: "I enjoy a wide range, but soft pop and acoustic tracks are my favourites for everyday listening.", ideas: ["Genres"], vocab: ["wide range"] },
-        { q: "Do you prefer listening to music alone or with others?", sample: "Usually alone, with my headphones in — it lets me really get lost in the songs.", ideas: ["Pick", "Why"], vocab: ["get lost in"] },
-        { q: "Do you play any musical instruments?", sample: "Not yet, unfortunately, but learning the guitar is high on my wish-list.", ideas: ["Yes/No", "Wish"], vocab: ["wish-list"] },
-        { q: "Has your taste in music changed over time?", sample: "Yes, quite a bit. I used to only like loud, energetic songs, but now I appreciate calmer music too.", ideas: ["Then vs now"], vocab: ["appreciate"] }
+        { q: "Do you enjoy listening to music?", sample: "Definitely — I'd say music is the soundtrack to my whole day. I listen while studying, walking, and just about everywhere in between. It has this amazing power to instantly lift my mood or help me focus, depending on what I choose.", ideas: ["Yes/No", "When"], grammar: "'just about everywhere' — natural intensifier.", vocab: ["soundtrack", "lift my mood"] },
+        { q: "What kind of music do you like?", sample: "I enjoy quite a wide range, to be honest, but soft pop and acoustic tracks are my favourites for everyday listening. When I need to feel more energetic, though, I'll put on something more upbeat. It really depends on what I'm in the mood for.", ideas: ["Genres", "When"], grammar: "'in the mood for' — collocation.", vocab: ["wide range", "acoustic", "upbeat"] },
+        { q: "Do you prefer listening to music alone or with others?", sample: "Usually alone, with my headphones in. That way I can really get lost in the songs and properly appreciate the lyrics without any distractions. Listening with friends is fun for parties, but for everyday listening, I prefer my own little world.", ideas: ["Pick", "Why"], grammar: "'That way, ...' to show result.", vocab: ["get lost in", "appreciate the lyrics"] },
+        { q: "Do you play any musical instruments?", sample: "Not yet, unfortunately, although learning the guitar is very high on my wish-list. I've always admired people who can just pick up an instrument and play, so it's definitely something I want to make time for in the future.", ideas: ["Yes/No", "Wish"], grammar: "'make time for' — collocation.", vocab: ["wish-list", "pick up an instrument"] },
+        { q: "Has your taste in music changed over time?", sample: "Yes, quite a bit, actually. When I was younger I only liked loud, energetic songs, but now I find I appreciate calmer, more meaningful music too. I think my taste has gradually broadened as I've grown up, which I'm happy about.", ideas: ["Then vs now"], grammar: "'find I appreciate' — reporting a realisation.", vocab: ["appreciate", "broaden"] }
       ]
     },
     part2: {
@@ -778,11 +783,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Movies",
       questions: [
-        { q: "Do you like to watch movies?", sample: "Yes, watching films is one of my favourite ways to relax and escape for a couple of hours.", ideas: ["Yes/No", "Why"], vocab: ["escape"] },
-        { q: "How often do you go to the cinema?", sample: "Not very often these days — maybe a few times a year — since I usually watch films at home now.", ideas: ["Frequency"], vocab: ["these days"] },
-        { q: "What kind of movies do you enjoy the most?", sample: "I'm a sucker for science fiction and thrillers — anything with a clever, surprising plot.", ideas: ["Genre", "Why"], vocab: ["a sucker for — really like"] },
-        { q: "Do you prefer watching movies at home or at the cinema?", sample: "The cinema is special for big films, but for everyday viewing I prefer the comfort of home.", ideas: ["Pick", "Why"], vocab: ["the comfort of home"] },
-        { q: "Have you ever been to a film festival?", sample: "Not yet, but I'd really love to — it sounds like a great way to discover unusual films.", ideas: ["Yes/No", "Wish"], vocab: ["discover"] }
+        { q: "Do you like to watch movies?", sample: "Yes, I really do. Watching films is one of my favourite ways to relax and escape into another world for a couple of hours. After a stressful week, there's nothing better than getting comfortable and losing myself in a good story.", ideas: ["Yes/No", "Why"], grammar: "'there's nothing better than + -ing'.", vocab: ["escape", "lose myself in"] },
+        { q: "How often do you go to the cinema?", sample: "Not very often these days, maybe just a few times a year, since I tend to watch most films at home now. I usually save the cinema for big blockbusters that are really worth seeing on the huge screen.", ideas: ["Frequency", "When"], grammar: "'save X for Y' — useful pattern.", vocab: ["these days", "blockbuster"] },
+        { q: "What kind of movies do you enjoy the most?", sample: "I'm a real sucker for science fiction and thrillers — basically anything with a clever, surprising plot. I love films that keep me on the edge of my seat and make me think. A good plot twist that I never saw coming is the best.", ideas: ["Genre", "Why"], grammar: "'on the edge of my seat' — idiom.", vocab: ["a sucker for — really like", "plot twist"] },
+        { q: "Do you prefer watching movies at home or at the cinema?", sample: "The cinema is definitely special for big, dramatic films because of the sound and the screen. For everyday viewing, though, I prefer the comfort of home, where I can pause whenever I want and relax on my own sofa. So it really depends on the film.", ideas: ["Pick", "Why"], grammar: "Concession with 'though'.", vocab: ["the comfort of home", "pause"] },
+        { q: "Have you ever been to a film festival?", sample: "Not yet, unfortunately, but it's something I'd really love to do. It sounds like a fantastic way to discover unusual, independent films that you'd never normally come across. I'm definitely hoping to attend one at some point.", ideas: ["Yes/No", "Wish"], grammar: "'never normally come across' — natural phrasing.", vocab: ["discover", "come across"] }
       ]
     },
     part2: {
@@ -801,11 +806,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Holidays and Celebrations",
       questions: [
-        { q: "What is your favorite holiday?", sample: "My favourite is Navruz, our spring new-year festival. It's colourful, joyful and all about new beginnings.", ideas: ["Holiday", "Why"], vocab: ["new beginnings"] },
-        { q: "How do you usually celebrate special occasions?", sample: "Usually with a big family gathering, lots of traditional food and plenty of laughter.", ideas: ["How"], vocab: ["gathering"] },
-        { q: "Is there a holiday that is particularly important in your country?", sample: "Navruz is hugely important here — it marks the arrival of spring and brings whole communities together.", ideas: ["Holiday", "Significance"], vocab: ["bring together"] },
-        { q: "Do you think traditions around holidays are changing?", sample: "To some extent, yes. Technology has changed how we celebrate, but the core values stay the same.", ideas: ["Yes/No", "How"], vocab: ["core values"] },
-        { q: "What kind of celebrations do you enjoy the most?", sample: "I love big, lively celebrations where the whole family comes together — those are the most memorable for me.", ideas: ["Type", "Why"], vocab: ["lively"] }
+        { q: "What is your favorite holiday?", sample: "My favourite is Navruz, which is our spring new-year festival. I love it because it's so colourful and joyful, and it's all about fresh starts and new beginnings. The whole atmosphere just feels full of hope and positivity, which I really enjoy.", ideas: ["Holiday", "Why"], grammar: "'which is ...' to add a definition.", vocab: ["new beginnings", "atmosphere"] },
+        { q: "How do you usually celebrate special occasions?", sample: "Usually with a big family gathering, lots of traditional food, and plenty of laughter. For us, the most important part is simply being together with everyone we love. We tend to keep things warm and relaxed rather than overly formal.", ideas: ["How", "What matters"], grammar: "'rather than + adjective'.", vocab: ["gathering", "warm and relaxed"] },
+        { q: "Is there a holiday that is particularly important in your country?", sample: "Navruz is hugely important here. It marks the arrival of spring and really brings whole communities together — neighbours cook together, share meals, and celebrate as one. I think that strong sense of togetherness is what makes it so special.", ideas: ["Holiday", "Significance"], grammar: "'bring together' — phrasal verb.", vocab: ["bring together", "a sense of togetherness"] },
+        { q: "Do you think traditions around holidays are changing?", sample: "To some extent, yes. Technology has definitely changed how we celebrate — for instance, people now send greetings online instead of in person. Even so, I'd say the core values, like family and generosity, have stayed very much the same.", ideas: ["Yes/No", "How"], grammar: "'Even so, ...' for concession.", vocab: ["core values", "generosity"] },
+        { q: "What kind of celebrations do you enjoy the most?", sample: "I really love big, lively celebrations where the whole family comes together. There's so much energy, food and laughter that they always end up being the most memorable for me. The bigger and warmer the gathering, the happier I am.", ideas: ["Type", "Why"], grammar: "'The bigger ..., the happier ...' — comparative pattern.", vocab: ["lively", "memorable"] }
       ]
     },
     part2: {
@@ -824,11 +829,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Technology",
       questions: [
-        { q: "What is your favorite technology?", sample: "Probably the smartphone — it combines so many useful tools into a single device.", ideas: ["Tech", "Why"], vocab: ["combine"] },
-        { q: "Do you use a phone or a computer more?", sample: "I use my phone more for quick everyday tasks, but I switch to my laptop for serious studying.", ideas: ["Which", "When"], vocab: ["switch to"] },
-        { q: "How does technology help you every day?", sample: "It helps me learn, communicate and stay organised — I'd struggle to manage my day without it.", ideas: ["Benefits"], vocab: ["stay organised"] },
-        { q: "Do you like learning about new technology?", sample: "Yes, I find it exciting to see how quickly things are advancing and what's coming next.", ideas: ["Yes/No", "Why"], vocab: ["advancing"] },
-        { q: "What is one piece of technology you want to try?", sample: "I'd love to try a VR headset — fully immersive virtual reality sounds fascinating.", ideas: ["The tech", "Why"], vocab: ["immersive"] }
+        { q: "What is your favorite technology?", sample: "It's probably the smartphone, honestly. What I love about it is how it combines so many useful tools — a phone, a camera, a map, a computer — into one small device. The fact that it can do almost anything still genuinely impresses me.", ideas: ["Tech", "Why"], grammar: "'What I love about it is how ...'.", vocab: ["combine", "genuinely"] },
+        { q: "Do you use a phone or a computer more?", sample: "I use my phone more for quick, everyday tasks like messaging and checking things on the go. When it comes to serious studying or writing, though, I always switch to my laptop because it's far more comfortable for longer work.", ideas: ["Which", "When"], grammar: "'When it comes to ...' to introduce a topic.", vocab: ["on the go", "switch to"] },
+        { q: "How does technology help you every day?", sample: "It helps me in so many ways — learning, communicating, and staying organised, to name just a few. Honestly, I'd really struggle to manage my studies and daily schedule without it. It's become an essential part of how I get things done.", ideas: ["Benefits"], grammar: "'to name just a few' — useful phrase.", vocab: ["stay organised", "get things done"] },
+        { q: "Do you like learning about new technology?", sample: "Yes, I find it genuinely exciting. It's fascinating to see how quickly things are advancing and to imagine what might be possible in the future. I'm always curious to find out what the next big innovation is going to be.", ideas: ["Yes/No", "Why"], grammar: "'It's fascinating to see ...'.", vocab: ["advancing", "innovation"] },
+        { q: "What is one piece of technology you want to try?", sample: "I'd really love to try a VR headset properly. The idea of fully immersive virtual reality — where you feel like you're actually somewhere else — sounds absolutely fascinating to me. I think it could completely change the way we learn and play.", ideas: ["The tech", "Why"], grammar: "'the way we learn and play' — natural phrasing.", vocab: ["immersive", "virtual reality"] }
       ]
     },
     part2: {
@@ -847,11 +852,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Environment",
       questions: [
-        { q: "Do you like spending time in nature?", sample: "I love it. Being in nature instantly clears my mind and lowers my stress levels.", ideas: ["Yes/No", "Why"], vocab: ["clear my mind"] },
-        { q: "What is your favorite outdoor place?", sample: "Definitely the mountains — the views are stunning and the air feels so fresh and clean.", ideas: ["Place", "Why"], vocab: ["stunning views"] },
-        { q: "How can people protect the environment?", sample: "Small steps add up — recycling, cutting down on plastic, and using public transport all make a difference.", ideas: ["Actions"], vocab: ["cut down on", "make a difference"] },
-        { q: "Do you think it's important to plant trees?", sample: "Absolutely. Trees clean our air, provide shade and support wildlife — they're essential for the planet.", ideas: ["Yes/No", "Why"], vocab: ["essential"] },
-        { q: "What do you do to keep the environment clean?", sample: "I always dispose of rubbish properly, try to recycle, and avoid single-use plastics whenever I can.", ideas: ["Your habits"], vocab: ["dispose of", "single-use plastics"] }
+        { q: "Do you like spending time in nature?", sample: "I love it, honestly. Being out in nature instantly clears my mind and lowers my stress levels in a way that nothing else really does. After spending a lot of time indoors, getting outside always leaves me feeling refreshed and recharged.", ideas: ["Yes/No", "Why"], grammar: "'in a way that nothing else does' — emphasis.", vocab: ["clear my mind", "refreshed"] },
+        { q: "What is your favorite outdoor place?", sample: "Definitely the mountains. The views up there are absolutely stunning, and the air feels so fresh and clean compared to the city. There's a real sense of peace you get from being surrounded by nature like that, which I find hard to beat.", ideas: ["Place", "Why"], grammar: "'compared to ...' for comparison.", vocab: ["stunning views", "a sense of peace"] },
+        { q: "How can people protect the environment?", sample: "I think small steps really do add up. Things like recycling, cutting down on single-use plastic, and using public transport instead of driving can all make a genuine difference. If everyone did just a little, the overall impact would be huge.", ideas: ["Actions"], grammar: "'If everyone did ..., the impact would ...' — conditional.", vocab: ["cut down on", "make a difference"] },
+        { q: "Do you think it's important to plant trees?", sample: "Absolutely, I'd say it's essential. Trees clean our air, provide shade, and support all kinds of wildlife, so they're genuinely vital for the planet. With so much pollution around these days, planting more trees feels more important than ever.", ideas: ["Yes/No", "Why"], grammar: "'more ... than ever' — comparative.", vocab: ["essential", "vital", "pollution"] },
+        { q: "What do you do to keep the environment clean?", sample: "On a personal level, I always make sure to dispose of my rubbish properly and I try to recycle whenever I can. I've also been making an effort to avoid single-use plastics. They're small habits, but I believe they all count.", ideas: ["Your habits"], grammar: "'make an effort to ...'.", vocab: ["dispose of", "single-use plastics", "they all count"] }
       ]
     },
     part2: {
@@ -870,11 +875,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Health",
       questions: [
-        { q: "Do you try to stay healthy?", sample: "I do my best. I try to eat reasonably well, stay active and get enough sleep, though there's always room for improvement.", ideas: ["Yes/No", "How"], vocab: ["room for improvement"] },
-        { q: "What do you do to keep fit?", sample: "I go for regular walks and do some simple home workouts a few times a week.", ideas: ["Activities"], vocab: ["home workouts"] },
-        { q: "Do you think eating healthy food is important?", sample: "Absolutely — what you eat affects your energy, mood and long-term health, so it really matters.", ideas: ["Yes/No", "Why"], vocab: ["long-term health"] },
-        { q: "How often do you exercise?", sample: "Around three or four times a week, usually light exercise that fits easily into my routine.", ideas: ["Frequency"], vocab: ["fit into my routine"] },
-        { q: "What advice would you give someone to stay healthy?", sample: "I'd say start small — drink more water, move a little every day, and don't aim for perfection straight away.", ideas: ["Advice"], vocab: ["start small", "aim for perfection"] }
+        { q: "Do you try to stay healthy?", sample: "I do my best, yes. I try to eat reasonably well, stay fairly active, and get enough sleep, although I'll admit there's always room for improvement. I think being consistent is more realistic than aiming for perfection all the time.", ideas: ["Yes/No", "How"], grammar: "'there's always room for improvement'.", vocab: ["room for improvement", "consistent"] },
+        { q: "What do you do to keep fit?", sample: "Nothing too intense, honestly. I go for regular walks and do some simple home workouts a few times a week. I've found that sticking to easy, manageable exercise is much more sustainable for me than pushing myself too hard and giving up.", ideas: ["Activities"], grammar: "'much more ... than + -ing' — comparison.", vocab: ["home workouts", "sustainable"] },
+        { q: "Do you think eating healthy food is important?", sample: "Absolutely, I think it's hugely important. What you eat directly affects your energy, your mood, and your long-term health, so it really does matter. I try to eat well most of the time, while still allowing myself the occasional treat.", ideas: ["Yes/No", "Why"], grammar: "'while still + -ing' for balance.", vocab: ["long-term health", "the occasional treat"] },
+        { q: "How often do you exercise?", sample: "I'd say around three or four times a week, usually light exercise that fits easily into my daily routine. I find that little and often works far better for me than one exhausting session that leaves me dreading the next one.", ideas: ["Frequency"], grammar: "'little and often' — fixed phrase.", vocab: ["fit into my routine", "dread"] },
+        { q: "What advice would you give someone to stay healthy?", sample: "I'd say start small and build up gradually. Simple things like drinking more water and moving a little every day make a real difference over time. The key is not to aim for perfection straight away, because that usually leads to giving up.", ideas: ["Advice"], grammar: "'The key is not to ...' — advice structure.", vocab: ["start small", "build up", "aim for perfection"] }
       ]
     },
     part2: {
@@ -893,11 +898,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Education",
       questions: [
-        { q: "Do you enjoy learning new things?", sample: "I genuinely do. There's a real sense of satisfaction in understanding something you didn't know before.", ideas: ["Yes/No", "Why"], vocab: ["sense of satisfaction"] },
-        { q: "What is your favorite subject?", sample: "I've always loved history because it helps me understand how today's world came to be.", ideas: ["Subject", "Why"], vocab: ["came to be"] },
-        { q: "Do you think school is important? Why?", sample: "Definitely. Beyond facts, school teaches discipline, social skills and how to think — all vital for life.", ideas: ["Yes/No", "Why"], vocab: ["discipline", "vital"] },
-        { q: "How do you like to study: alone or in a group?", sample: "It depends on the task. I prefer studying alone for focus, but group study is great for discussing tricky ideas.", ideas: ["Pick / depends", "Why"], vocab: ["tricky ideas"] },
-        { q: "What would you like to learn in the future?", sample: "I'd love to learn a third language one day — maybe Spanish — just for the joy of it.", ideas: ["What", "Why"], vocab: ["for the joy of it"] }
+        { q: "Do you enjoy learning new things?", sample: "I genuinely do. There's a real sense of satisfaction in finally understanding something you didn't know before. I'm quite a curious person by nature, so I'm always keen to pick up new skills and ideas whenever I can.", ideas: ["Yes/No", "Why"], grammar: "'by nature' — natural phrase.", vocab: ["a sense of satisfaction", "pick up"] },
+        { q: "What is your favorite subject?", sample: "I've always loved history the most. I find it fascinating because it helps me understand how today's world came to be, and there are so many incredible stories behind it. It feels more like listening to stories than studying, which I love.", ideas: ["Subject", "Why"], grammar: "'came to be' — natural phrase.", vocab: ["fascinating", "came to be"] },
+        { q: "Do you think school is important? Why?", sample: "Definitely, and not just for the academic side. Beyond facts and figures, school teaches you discipline, social skills, and how to think for yourself — all of which are absolutely vital for life. I think those lessons matter just as much as the subjects.", ideas: ["Yes/No", "Why"], grammar: "'not just ... but ...' to extend.", vocab: ["discipline", "vital", "think for yourself"] },
+        { q: "How do you like to study: alone or in a group?", sample: "It really depends on the task, to be honest. I prefer studying alone when I need to concentrate properly, but group study is great for discussing tricky ideas and hearing other points of view. So I try to combine both.", ideas: ["Pick / depends", "Why"], grammar: "'It depends on ...' — hedging.", vocab: ["tricky ideas", "points of view"] },
+        { q: "What would you like to learn in the future?", sample: "I'd love to learn a third language one day — maybe Spanish — just for the sheer joy of it. I think being able to communicate with even more people would be incredibly rewarding, and learning languages is something I genuinely enjoy.", ideas: ["What", "Why"], grammar: "'for the sheer joy of it' — emphasis.", vocab: ["for the joy of it", "rewarding"] }
       ]
     },
     part2: {
@@ -916,11 +921,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Traveling",
       questions: [
-        { q: "Do you like traveling?", sample: "I really do — exploring new places is one of the most enriching things in life for me.", ideas: ["Yes/No", "Why"], vocab: ["enriching"] },
-        { q: "What kind of places do you like to visit?", sample: "I'm especially drawn to historical cities, though I also love peaceful natural spots.", ideas: ["Type", "Why"], vocab: ["drawn to"] },
-        { q: "How often do you travel?", sample: "Mainly during holidays, so a few times a year, but I cherish every trip.", ideas: ["Frequency"], vocab: ["cherish"] },
-        { q: "Do you prefer to travel alone or with others?", sample: "With others, usually. Shared experiences just feel more meaningful to me.", ideas: ["Pick", "Why"], vocab: ["meaningful"] },
-        { q: "What is your favorite means of transport when you travel?", sample: "I love trains — comfortable, scenic, and a relaxing way to travel.", ideas: ["Mode", "Why"], vocab: ["scenic"] }
+        { q: "Do you like traveling?", sample: "I really do — I'd say exploring new places is one of the most enriching things in life for me. Every trip teaches me something new, whether it's about a different culture or even about myself. I always come back feeling inspired.", ideas: ["Yes/No", "Why"], grammar: "'whether it's ... or ...' for options.", vocab: ["enriching", "inspired"] },
+        { q: "What kind of places do you like to visit?", sample: "I'm especially drawn to historical cities, because I love learning about the past and seeing old architecture up close. That said, I also enjoy peaceful natural spots when I want to relax and escape the noise of everyday life.", ideas: ["Type", "Why"], grammar: "Concession with 'That said, ...'.", vocab: ["drawn to", "up close"] },
+        { q: "How often do you travel?", sample: "Mainly during the holidays, so just a few times a year, unfortunately. Because the chances are fairly rare, though, I genuinely cherish every single trip and try to soak up as much of the experience as I possibly can.", ideas: ["Frequency", "Attitude"], grammar: "'soak up' — phrasal verb.", vocab: ["cherish", "soak up"] },
+        { q: "Do you prefer to travel alone or with others?", sample: "With others, usually. For me, shared experiences just feel far more meaningful and fun — having someone to laugh with and remember it all afterwards makes a big difference. Travelling solo can be freeing, but I prefer good company.", ideas: ["Pick", "Why"], grammar: "'makes a big difference' — collocation.", vocab: ["meaningful", "freeing"] },
+        { q: "What is your favorite means of transport when you travel?", sample: "I really love travelling by train. It's comfortable and relaxing, and you get to enjoy the scenery the whole way, which you simply can't do on a plane. There's something quite peaceful about watching the world go by from a train window.", ideas: ["Mode", "Why"], grammar: "'which you simply can't do ...' — relative clause.", vocab: ["scenic", "the world go by"] }
       ]
     },
     part2: {
@@ -939,11 +944,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Holidays",
       questions: [
-        { q: "Do you like going on holidays?", sample: "I absolutely love holidays — they're the perfect chance to relax and recharge away from routine.", ideas: ["Yes/No", "Why"], vocab: ["recharge"] },
-        { q: "How often do you go on vacation?", sample: "Usually once or twice a year, mostly during the long holidays.", ideas: ["Frequency"], vocab: ["long holidays"] },
-        { q: "What do you usually do during your holidays?", sample: "I like a mix of resting at home and exploring somewhere new — a balance of relaxation and adventure.", ideas: ["Activities"], vocab: ["a balance of"] },
-        { q: "Do you prefer to spend holidays in your country or abroad?", sample: "I enjoy both, but travelling abroad excites me more because of the new cultures and experiences.", ideas: ["Pick", "Why"], vocab: ["new cultures"] },
-        { q: "What was your best holiday experience?", sample: "Definitely a trip to the mountains with friends — the scenery and the company made it unforgettable.", ideas: ["The trip", "Why"], vocab: ["unforgettable"] }
+        { q: "Do you like going on holidays?", sample: "I absolutely love holidays. For me, they're the perfect chance to relax, recharge, and step away from my usual routine for a while. After a long stretch of studying, a good holiday is exactly what I need to come back feeling fresh.", ideas: ["Yes/No", "Why"], grammar: "'step away from ...' — phrasal verb.", vocab: ["recharge", "a long stretch of"] },
+        { q: "How often do you go on vacation?", sample: "Usually once or twice a year, mostly during the longer holidays when I actually have free time. It's not as often as I'd like, but I always try to make those trips really count and plan them well in advance.", ideas: ["Frequency"], grammar: "'make ... count' — useful phrase.", vocab: ["long holidays", "in advance"] },
+        { q: "What do you usually do during your holidays?", sample: "I like a good mix of resting at home and exploring somewhere new — basically a balance of relaxation and adventure. Some days I'll just recharge completely, while on others I'll be out and about seeing the sights. Variety is what I enjoy most.", ideas: ["Activities"], grammar: "'a balance of X and Y'.", vocab: ["out and about", "see the sights"] },
+        { q: "Do you prefer to spend holidays in your country or abroad?", sample: "I genuinely enjoy both, but if I'm honest, travelling abroad excites me a bit more. There's just something thrilling about experiencing completely new cultures, languages, and food. Still, there are so many beautiful places in my own country worth seeing too.", ideas: ["Pick", "Why"], grammar: "'if I'm honest, ...' — natural hedge.", vocab: ["new cultures", "thrilling"] },
+        { q: "What was your best holiday experience?", sample: "Definitely a trip to the mountains with my friends. The breathtaking scenery combined with the great company made it absolutely unforgettable. We laughed the whole time, and even now we still talk about it, which says a lot about how special it was.", ideas: ["The trip", "Why"], grammar: "'which says a lot about ...' — adding emphasis.", vocab: ["unforgettable", "says a lot about"] }
       ]
     },
     part2: {
@@ -962,11 +967,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Weather",
       questions: [
-        { q: "What kind of weather do you like the most?", sample: "I love mild, sunny weather — warm enough to enjoy being outside but not too hot to handle.", ideas: ["Weather", "Why"], vocab: ["too hot to handle"] },
-        { q: "Does the weather affect your mood?", sample: "Quite a lot, actually. Bright, sunny days lift my mood, while grey skies tend to make me feel a bit sluggish.", ideas: ["Yes/No", "How"], vocab: ["sluggish"] },
-        { q: "What is the weather usually like in your country?", sample: "We have hot, dry summers and fairly cold winters, so there's a real contrast between the seasons.", ideas: ["Description"], vocab: ["contrast"] },
-        { q: "Have you ever experienced extreme weather conditions?", sample: "Yes, we sometimes get extremely hot summer days, which can make even simple tasks exhausting.", ideas: ["Yes/No", "Example"], vocab: ["exhausting"] },
-        { q: "Do you prefer hot weather or cold weather?", sample: "I'd choose cool weather over heat — it's easier to warm up than to cool down, in my opinion.", ideas: ["Pick", "Why"], vocab: ["warm up", "cool down"] }
+        { q: "What kind of weather do you like the most?", sample: "I love mild, sunny weather more than anything. It's warm enough to enjoy being outside, but not so hot that it becomes uncomfortable. On days like that, I feel far more cheerful and motivated to actually get out and do something.", ideas: ["Weather", "Why"], grammar: "'warm enough to ... but not so hot that ...'.", vocab: ["mild", "cheerful", "motivated"] },
+        { q: "Does the weather affect your mood?", sample: "Quite a lot, actually, more than I'd like to admit. Bright, sunny days really lift my mood and give me energy, whereas long stretches of grey skies tend to make me feel a bit low and sluggish. The sun definitely makes a difference for me.", ideas: ["Yes/No", "How"], grammar: "'more than I'd like to admit' — natural aside.", vocab: ["lift my mood", "sluggish"] },
+        { q: "What is the weather usually like in your country?", sample: "We tend to have hot, dry summers and fairly cold winters, so there's quite a sharp contrast between the seasons. Spring and autumn are probably the most pleasant, with that comfortable in-between weather that I personally enjoy the most.", ideas: ["Description"], grammar: "'so there's quite a contrast' — result.", vocab: ["contrast", "in-between"] },
+        { q: "Have you ever experienced extreme weather conditions?", sample: "Yes, we sometimes get extremely hot summer days where the temperature really soars. On days like that, even simple tasks can feel exhausting, and you just want to stay indoors with the air conditioning on. It can be pretty draining.", ideas: ["Yes/No", "Example"], grammar: "'where the temperature soars' — relative clause.", vocab: ["soar", "exhausting", "draining"] },
+        { q: "Do you prefer hot weather or cold weather?", sample: "I'd choose cool weather over heat any day, to be honest. The way I see it, you can always warm yourself up with extra layers when it's cold, but there's only so much you can do to escape the heat. So cooler weather feels far more bearable.", ideas: ["Pick", "Why"], grammar: "'there's only so much you can do' — idiom.", vocab: ["warm up", "layers", "bearable"] }
       ]
     },
     part2: {
@@ -985,11 +990,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Hotels",
       questions: [
-        { q: "Do you like staying in hotels?", sample: "I do — there's something nice about being looked after and not having to worry about chores for a few days.", ideas: ["Yes/No", "Why"], vocab: ["looked after", "chores"] },
-        { q: "What kind of hotels do you prefer?", sample: "I prefer comfortable, mid-range hotels that are clean and well-located rather than overly luxurious ones.", ideas: ["Type", "Why"], vocab: ["well-located", "mid-range"] },
-        { q: "Have you ever stayed in a luxury hotel?", sample: "Once, for a special occasion, and it was a real treat — the service and comfort were on another level.", ideas: ["Yes/No", "Experience"], vocab: ["a real treat", "on another level"] },
-        { q: "What do you usually look for when choosing a hotel?", sample: "Cleanliness and location are my top priorities, followed by good reviews and a fair price.", ideas: ["Priorities"], vocab: ["top priorities"] },
-        { q: "Do you prefer hotels or homestays when you travel?", sample: "It depends — hotels for comfort, but homestays when I want a more authentic, local experience.", ideas: ["Pick / depends", "Why"], vocab: ["authentic"] }
+        { q: "Do you like staying in hotels?", sample: "I do, actually. There's something really nice about being looked after for a few days and not having to worry about cooking or chores. It makes a holiday feel like a proper break, where you can just relax and be a guest.", ideas: ["Yes/No", "Why"], grammar: "'not having to ...' — gerund pattern.", vocab: ["looked after", "chores", "a proper break"] },
+        { q: "What kind of hotels do you prefer?", sample: "I tend to prefer comfortable, mid-range hotels that are clean and well-located rather than overly luxurious ones. For me, a good location and a comfy bed matter far more than fancy extras I probably wouldn't even use anyway.", ideas: ["Type", "Why"], grammar: "'rather than ...' for contrast.", vocab: ["well-located", "mid-range", "fancy extras"] },
+        { q: "Have you ever stayed in a luxury hotel?", sample: "Yes, once, for a special family occasion, and honestly it was a real treat. The service and the comfort were on a completely different level to what I was used to. It was lovely to experience, even if it's not something I could afford often.", ideas: ["Yes/No", "Experience"], grammar: "'on a different level to ...' — comparison.", vocab: ["a real treat", "on another level"] },
+        { q: "What do you usually look for when choosing a hotel?", sample: "Cleanliness and location are definitely my top priorities. After that, I'll look at the reviews and the price to make sure I'm getting good value. As long as it's clean, comfortable and conveniently located, I'm generally happy.", ideas: ["Priorities"], grammar: "'As long as ...' — condition.", vocab: ["top priorities", "good value"] },
+        { q: "Do you prefer hotels or homestays when you travel?", sample: "It really depends on the kind of trip, honestly. I'll go for a hotel when I want comfort and convenience, but I prefer a homestay when I want a more authentic, local experience. Each one suits a different sort of holiday for me.", ideas: ["Pick / depends", "Why"], grammar: "'It depends on ...' — hedging.", vocab: ["authentic", "convenience"] }
       ]
     },
     part2: {
@@ -1008,11 +1013,11 @@ const SPEAKING_DATA = [
     part1: {
       title: "Part 1: Air Travel",
       questions: [
-        { q: "Do you often travel by plane?", sample: "Not too often, mostly for longer trips abroad, but I always find flying quite exciting.", ideas: ["Frequency", "Feeling"], vocab: ["abroad"] },
-        { q: "What do you like or dislike about flying?", sample: "I love how fast it is and the view from above, but I'm not a fan of the long waits at the airport.", ideas: ["Like", "Dislike"], vocab: ["not a fan of"] },
-        { q: "What was the longest flight you have ever taken?", sample: "The longest was several hours to another country — it felt endless, but the excitement kept me going.", ideas: ["The flight", "How it felt"], vocab: ["felt endless"] },
-        { q: "How do you usually spend your time during flights?", sample: "I usually read, watch a film or simply sleep to make the time pass more quickly.", ideas: ["Activities"], vocab: ["pass the time"] },
-        { q: "Have you ever had any problems while travelling by air?", sample: "Once my flight was delayed for hours, which was frustrating, but I just made the best of it.", ideas: ["Yes/No", "What happened"], vocab: ["delayed", "make the best of it"] }
+        { q: "Do you often travel by plane?", sample: "Not too often, to be honest — mainly just for longer trips abroad. But whenever I do fly, I always find it quite exciting. There's a real thrill in taking off and knowing you'll be in a completely different place in just a few hours.", ideas: ["Frequency", "Feeling"], grammar: "'whenever I do fly' — emphatic 'do'.", vocab: ["abroad", "take off", "a thrill"] },
+        { q: "What do you like or dislike about flying?", sample: "What I love most is how fast it is, plus the amazing view of the clouds from above. What I'm not such a fan of, though, is all the waiting around at the airport — the check-in and security queues can be really tedious.", ideas: ["Like", "Dislike"], grammar: "'What I love is ... / What I'm not a fan of is ...'.", vocab: ["not a fan of", "tedious", "queues"] },
+        { q: "What was the longest flight you have ever taken?", sample: "The longest was several hours to another country, and honestly it felt almost endless at times. Even so, the excitement of reaching my destination kept me going, and I passed the time by watching films and getting some sleep.", ideas: ["The flight", "How it felt"], grammar: "'Even so, ...' for concession.", vocab: ["felt endless", "pass the time"] },
+        { q: "How do you usually spend your time during flights?", sample: "I usually try to keep myself busy so the time goes faster. I'll read a book, watch a film, or listen to some music, and if I'm tired, I'll just try to sleep through it. Anything to make a long flight feel shorter, really.", ideas: ["Activities"], grammar: "'so the time goes faster' — purpose clause.", vocab: ["keep myself busy", "sleep through it"] },
+        { q: "Have you ever had any problems while travelling by air?", sample: "Yes, once my flight was delayed for several hours, which was honestly really frustrating. I just had to be patient and make the best of it by reading and grabbing a bite to eat. In the end it worked out fine, but it certainly tested my patience.", ideas: ["Yes/No", "What happened"], grammar: "'make the best of it' — idiom.", vocab: ["delayed", "make the best of it", "test my patience"] }
       ]
     },
     part2: {
